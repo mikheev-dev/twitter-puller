@@ -1,5 +1,5 @@
 from logging import Logger, getLogger
-from typing import List, Optional
+from typing import List, Optional, Dict
 from tweepy.tweet import Tweet
 
 import datetime
@@ -13,6 +13,7 @@ from lib.pubsub.publisher import BasePublisher
 from lib.service.service import BaseService
 from lib.pubsub.mixin import PublisherMixin
 from twitter_listener.config import TwitterConnectorConfig
+from twitter_listener.tweet_serializer import TweetSerializer
 
 config = TwitterConnectorConfig()
 default_logger = getLogger('TweeterAccountConnector')
@@ -42,7 +43,8 @@ class TweeterAccountConnector(PublisherMixin, BaseService):
         args = {
             'query': f'from:{self._followed_account}',
             'tweet_fields': ['created_at', 'entities', 'author_id'],
-            'expansions': 'referenced_tweets.id',
+            'expansions':  ['referenced_tweets.id', 'attachments.media_keys'],
+            'media_fields': ['media_key', 'type', 'url', 'preview_image_url'],
             'max_results': 100,
         }
         if start_time:
@@ -52,14 +54,11 @@ class TweeterAccountConnector(PublisherMixin, BaseService):
         response = self._client.search_recent_tweets(**args)
         return response
 
-    def receive(self) -> List[Tweet]:
+    def receive(self) -> List[Dict]:
         time.sleep(config.POOL_TIME)
         start_time = datetime.datetime.now(tz=datetime.timezone.utc)
         response = self._get_tweets(start_time=self._last_timestamp.replace(tzinfo=pytz.utc))
-        tweets = [
-            tweet for tweet in response.data
-        ] if response.data else []
-
+        tweets = TweetSerializer.serialize(response)
         self._logger.debug(f"{self._service_name}::{self._followed_account}::"
                            f"Success read tweets for account {self._followed_account}!")
         self._last_timestamp = start_time
@@ -73,11 +72,12 @@ class TweeterAccountConnector(PublisherMixin, BaseService):
         response = self._get_tweets()
         self._logger.debug(f"{self._service_name}::{self._followed_account}::Successful readed tweets for a week!")
         created_at = response.data[0].created_at
-        for tweet in response.data:
+        tweets = TweetSerializer.serialize(response)
+        for tweet in tweets:
             self._publisher.publish(
                 event=Event(
                     type='raw',
-                    body=tweet.data,
+                    body=tweet,
                 )
             )
         return created_at + datetime.timedelta(seconds=1) if response.data else datetime.datetime.now(tz=datetime.timezone.utc)
@@ -107,11 +107,11 @@ class TweeterAccountConnector(PublisherMixin, BaseService):
                           f"Start reading tweets for account {self._followed_account}")
 
     def main(self):
-        tweets: List[Tweet] = self.receive()
+        tweets: List[Dict] = self.receive()
         for tweet in tweets:
             self._publisher.publish(
                 event=Event(
                     type='raw',
-                    body=tweet.data,
+                    body=tweet,
                 )
             )
