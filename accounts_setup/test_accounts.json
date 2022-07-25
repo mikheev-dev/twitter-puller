@@ -1,0 +1,92 @@
+[
+  {
+    "name": "bigten",
+    "tags": [],
+    "desc": "bigten",
+    "id": 15755096
+  },
+  {
+    "name": "OhioStAthletics",
+    "tags": [],
+    "desc": "Ohio St.",
+    "id": 1197064033
+  },
+  {
+    "name": "UMichAthletics",
+    "tags": [],
+    "desc": "Michigan",
+    "id": 3270622363
+  },
+  {
+    "name": "IlliniAthletics",
+    "tags": [],
+    "desc": "Illinois",
+    "id": 295948577
+  },
+  {
+    "name": "MSU_Athletics",
+    "tags": [],
+    "desc": "Michigan State",
+    "id": 33661949
+  },
+  {
+    "name": "TheIowaHawkeyes",
+    "tags": [],
+    "desc": "Iowa",
+    "id": 19083469
+  },
+  {
+    "name": "RUAthletics",
+    "tags": [],
+    "desc": "Rutgers",
+    "id": 30223211
+  },
+  {
+    "name": "IUHoosiers",
+    "tags": [],
+    "desc": "Indiana",
+    "id": 104838177
+  },
+  {
+    "name": "umterps",
+    "tags": [],
+    "desc": "Maryland",
+    "id": 54994166
+  },
+  {
+    "name": "GopherSports",
+    "tags": [],
+    "desc": "Minnesota",
+    "id": 23865144
+  },
+  {
+    "name": "Huskers",
+    "tags": [],
+    "desc": "Nebraska",
+    "id": 116871109
+  },
+  {
+    "name": "NU_sports",
+    "tags": [],
+    "desc": "Northwestern",
+    "id": 23271259
+  },
+  {
+    "name": "GoPSUsports",
+    "tags": [],
+    "desc": "Penn St.",
+    "id": 22049388
+  },
+  {
+    "name": "Purduesports",
+    "tags": [],
+    "desc": "Purdue",
+    "id": 28573278
+  },
+  {
+    "name": "UWBadgers",
+    "tags": [],
+    "desc": "Wisconsin",
+    "id": 19936565
+  }
+]

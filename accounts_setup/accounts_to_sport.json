@@ -1,0 +1,82 @@
+[
+  {
+    "name": "bigten",
+    "tags": [],
+    "desc": "bigten",
+    "id": 0
+  },
+  {
+    "name": "OhioStAthletics",
+    "tags": [],
+    "desc": "Ohio St.",
+    "id": 0
+  },
+  {
+    "name": "UMichAthletics",
+    "tags": [],
+    "desc": "Michigan",
+    "id": 0
+  },
+  {
+    "name": "IlliniAthletics",
+    "tags": [],
+    "desc": "Illinois",
+    "id": 0
+  },
+  {
+    "name": "MSU_Athletics",
+    "tags": [],
+    "desc": "Michigan State",
+    "id": 0
+  },
+  {
+    "name": "TheIowaHawkeyes",
+    "tags": [],
+    "desc": "Iowa",
+    "id": 0
+  },
+  {
+    "name": "RUAthletics",
+    "tags": [],
+    "desc": "Rutgers",
+    "id": 0
+  },
+  {
+    "name": "IUHoosiers",
+    "tags": [],
+    "desc": "Indiana",
+    "id": 0
+  },
+  {
+    "name": "umterps",
+    "tags": [],
+    "desc": "Maryland",
+    "id": 0
+  },
+  {
+    "name": "Gophertags",
+    "tags": [],
+    "desc": "Minnesota",
+    "id": 0
+  },
+  "Huskers": {
+    "tags": [],
+    "desc": "Nebraska"
+  },
+  "NU_tags": {
+    "tags": [],
+    "desc": "Northwestern"
+  },
+  "GoPSUtags": {
+    "tags": [],
+    "desc": "Penn St."
+  },
+  "Purduetags": {
+    "tags": [],
+    "desc": "Purdue"
+  },
+  "UWBadgers": {
+    "tags": [],
+    "desc": "Wisconsin"
+  }
+]
