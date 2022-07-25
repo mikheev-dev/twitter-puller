@@ -24,12 +24,9 @@ class TagsExtractorService(PipelineService):
 
     @staticmethod
     def _extract_media_urls(tweet: Dict) -> List[str]:
-        if not tweet.get('entities'):
+        media_urls = tweet.get('media_urls')
+        if not media_urls:
             return []
-        media_urls = []
-        if 'media' in tweet['entities']:
-            for media_url in tweet['entities']['media_url']:
-                media_urls.append(media_url)
         return media_urls
 
     @staticmethod
