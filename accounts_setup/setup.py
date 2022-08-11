@@ -14,13 +14,13 @@ def create_database(config: BaseConfig):
     connection = get_psql_connection(config, dbname='bigten')
     cursor = connection.cursor()
     cursor.execute(
-        """
-            SELECT datname FROM pg_catalog.pg_database WHERE datname = 'twitter';
+        f"""
+            SELECT datname FROM pg_catalog.pg_database WHERE datname = '{config.PSQL_DB}';
         """
     )
     result = cursor.fetchall()
     if not result:
-        cursor.execute("""CREATE DATABASE twitter;""")
+        cursor.execute(f"""CREATE DATABASE {config.PSQL_DB};""")
     connection.close()
 
 
@@ -85,7 +85,7 @@ if __name__ == "__main__":
     cfg = DevConfig()
     print('Create database')
     create_database(cfg)
-    connection = get_psql_connection(cfg, dbname='twitter')
+    connection = get_psql_connection(cfg, dbname=cfg.PSQL_DB)
     print('Create tables')
     create_tables(connection)
     print('Fill accounts')

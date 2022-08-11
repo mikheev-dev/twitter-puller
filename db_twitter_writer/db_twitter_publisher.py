@@ -10,7 +10,7 @@ config = DBTwitterWriterConfig()
 
 class BasePostgresTwitterPublisher(BasePostgresPublisher):
     def __init__(self):
-        super().__init__(cfg=config, db_name='twitter')
+        super().__init__(cfg=config, db_name=config.PSQL_DB)
 
     def write_to_db(self, event: Event):
         with self._connection:
