@@ -15,4 +15,5 @@ class TwitterConnectorConfig(BaseConfig):
     PSQL_PORT = get_env_var('PSQL_PORT', cast=int, default=5432)
     PSQL_USER = get_env_var('PSQL_USER', default='bgt')
     PSQL_PASSWORD = get_env_var('PSQL_PASSWORD', default='bigten')
+    PSQL_DB = get_env_var('PSQL_DB', default='twitter')
     POOL_TIME = 11

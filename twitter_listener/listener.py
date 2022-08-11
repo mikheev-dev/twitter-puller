@@ -40,7 +40,8 @@ class TwitterListener(MPController):
 
     @staticmethod
     def setup_following_accounts() -> List[Tuple[int, str, List[str]]]:
-        connection = get_psql_connection(cfg=TwitterConnectorConfig(), dbname='twitter')
+        cfg = TwitterConnectorConfig()
+        connection = get_psql_connection(cfg, dbname=cfg.PSQL_DB)
         with connection:
             with connection.cursor() as cursor:
                 cursor.execute(

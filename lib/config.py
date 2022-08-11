@@ -21,6 +21,7 @@ class BaseConfig:
     PSQL_PORT = get_env_var('PSQL_PORT', cast=int, default=5432)
     PSQL_USER = get_env_var('PSQL_USER', default='user')
     PSQL_PASSWORD = get_env_var('PSQL_PASSWORD', default='password')
+    PSQL_DB = get_env_var('PSQL_DB', default='tweets')
 
 
 class DevConfig(BaseConfig):

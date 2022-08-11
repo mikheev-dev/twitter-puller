@@ -68,7 +68,7 @@ class TweeterAccountConnector(PublisherMixin, BaseService):
         return tweets
 
     def _prepare_db_connection(self):
-        self._connection = get_psql_connection(cfg=config, dbname='twitter')
+        self._connection = get_psql_connection(cfg=config, dbname=config.PSQL_DB)
 
     def get_tweets_for_default_pooling_period(self) -> datetime.datetime:
         self._logger.debug(f"{self._service_name}::{self._followed_account}::Start to read tweets for a week!")
