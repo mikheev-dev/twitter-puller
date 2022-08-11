@@ -44,12 +44,13 @@ class TagsExtractorService(PipelineService):
         hashtags = self._extract_hashtags(tweet=tweet)
         media_urls = self._extract_media_urls(tweet=tweet)
         is_retweet = self._check_is_retweet(tweet)
+        tags = hashtags + tweet.get('tags')
         return Event(
             type='parsed',
             body=FullParsedTweetBody(
                 tweet_id=tweet['id'],
                 user_id=tweet['author_id'],
-                tags=hashtags,
+                tags=tags,
                 txt=tweet['text'],
                 is_retweet=is_retweet,
                 media=media_urls,

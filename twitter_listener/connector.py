@@ -24,11 +24,13 @@ class TweeterAccountConnector(PublisherMixin, BaseService):
     _followed_account: str
     _client: tweepy.Client
     _last_timestamp: datetime.datetime
+    _followed_tags: List[str]
 
     def __init__(
             self,
             account_id: int,
             account_name: str,
+            account_tags: List[str],
             publisher: BasePublisher,
             logger: Logger = default_logger,
     ):
@@ -38,6 +40,7 @@ class TweeterAccountConnector(PublisherMixin, BaseService):
         self._followed_account_id = account_id
         self._followed_account = account_name
         self._client = tweepy.Client(bearer_token=config.BEARER_TOKEN)
+        self._followed_tags = account_tags
 
     def _get_tweets(self, start_time: Optional[datetime.datetime] = None) -> tweepy.Response:
         args = {
@@ -58,7 +61,7 @@ class TweeterAccountConnector(PublisherMixin, BaseService):
         time.sleep(config.POOL_TIME)
         start_time = datetime.datetime.now(tz=datetime.timezone.utc)
         response = self._get_tweets(start_time=self._last_timestamp.replace(tzinfo=pytz.utc))
-        tweets = TweetSerializer.serialize(response)
+        tweets = TweetSerializer.serialize(response, tags=self._followed_tags)
         self._logger.debug(f"{self._service_name}::{self._followed_account}::"
                            f"Success read tweets for account {self._followed_account}!")
         self._last_timestamp = start_time
@@ -72,7 +75,7 @@ class TweeterAccountConnector(PublisherMixin, BaseService):
         response = self._get_tweets()
         self._logger.debug(f"{self._service_name}::{self._followed_account}::Successful readed tweets for a week!")
         created_at = response.data[0].created_at
-        tweets = TweetSerializer.serialize(response)
+        tweets = TweetSerializer.serialize(response, tags=self._followed_tags)
         for tweet in tweets:
             self._publisher.publish(
                 event=Event(
