@@ -13,7 +13,7 @@ default_logger = getLogger('TwitterPooler')
 
 
 class TwitterListener(MPController):
-    _accounts: List[Tuple[int, str]]
+    _accounts: List[Tuple[int, str, List[str]]]
     _publisher: BasePublisher
 
     def __init__(self, publisher: BasePublisher, logger: Logger = default_logger):
@@ -30,22 +30,23 @@ class TwitterListener(MPController):
                     account_name=account_name,
                     publisher=self._publisher,
                     logger=self._logger,
+                    account_tags=account_tags,
                 )
             )
-            for account_id, account_name in self._accounts
+            for account_id, account_name, account_tags in self._accounts
         }
 
         super().setup()
 
     @staticmethod
-    def setup_following_accounts() -> List[Tuple[int, str]]:
+    def setup_following_accounts() -> List[Tuple[int, str, List[str]]]:
         connection = get_psql_connection(cfg=TwitterConnectorConfig(), dbname='twitter')
         with connection:
             with connection.cursor() as cursor:
                 cursor.execute(
                     f"""
-                    SELECT id, name FROM accounts;
+                    SELECT id, name, tags FROM accounts;
                     """
                 )
-                accounts = [(account[0], account[1]) for account in cursor.fetchall()]
+                accounts = [(account[0], account[1], account[2]) for account in cursor.fetchall()]
                 return accounts

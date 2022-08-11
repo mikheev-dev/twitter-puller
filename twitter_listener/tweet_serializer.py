@@ -40,7 +40,7 @@ class TweetSerializer:
         return tweet_media_urls
 
     @staticmethod
-    def serialize(response: Response) -> List[Dict]:
+    def serialize(response: Response, tags: List[str]) -> List[Dict]:
         if not response.data:
             return []
         media = response.includes.get('media')
@@ -50,7 +50,8 @@ class TweetSerializer:
             tweets.append(tweet.data)
             tweets[-1].update(
                 {
-                    'media_urls': TweetSerializer._extract_media_url_for_tweet(tweet, media_keys_to_urls)
+                    'media_urls': TweetSerializer._extract_media_url_for_tweet(tweet, media_keys_to_urls),
+                    'tags': tags,
                 }
             )
         return tweets

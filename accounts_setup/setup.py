@@ -7,7 +7,7 @@ sys.path.insert(1, os.path.abspath(".."))
 from lib.connectors.psql_connection import get_psql_connection
 from lib.config import BaseConfig, DevConfig
 
-PATH_TO_ACCOUNTS = 'test_accounts.json'
+PATH_TO_ACCOUNTS = 'test_accounts_2.json'
 
 
 def create_database(config: BaseConfig):
