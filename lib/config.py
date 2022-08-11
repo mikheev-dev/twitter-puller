@@ -25,8 +25,7 @@ class BaseConfig:
 
 
 class DevConfig(BaseConfig):
-    PSQL_USER = 'bgt'
-    PSQL_PASSWORD = 'bigten'
+    pass
 
 
 DEV_STAGE = 'dev'
