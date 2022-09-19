@@ -47,4 +47,6 @@ for acc, tags in acc_tags.items():
 with open(PATH_TO_SAVE, 'w') as f:
     json.dump(js, f, indent=2)
 
+print(f'TOTAL ACCOUNTS = {len(js)}')
+
 # print(js)

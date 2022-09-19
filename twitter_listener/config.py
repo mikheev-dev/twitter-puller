@@ -17,3 +17,4 @@ class TwitterConnectorConfig(BaseConfig):
     PSQL_PASSWORD = get_env_var('PSQL_PASSWORD', default='bigten')
     PSQL_DB = get_env_var('PSQL_DB', default='twitter')
     POOL_TIME = get_env_var('POOL_TIME', default=5 * 60, cast=int)
+    ACCOUNTS_IN_TIME_SLOT = get_env_var('ACCOUNTS_IN_TIME_SLOT', default=5, cast=int)
