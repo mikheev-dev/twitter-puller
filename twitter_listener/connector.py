@@ -25,12 +25,15 @@ class TweeterAccountConnector(PublisherMixin, BaseService):
     _client: tweepy.Client
     _last_timestamp: datetime.datetime
     _followed_tags: List[str]
+    _waiting_time: float
 
     def __init__(
             self,
             account_id: int,
             account_name: str,
             account_tags: List[str],
+            last_update: datetime.datetime,
+            initial_waiting_time: float,
             publisher: BasePublisher,
             logger: Logger = default_logger,
     ):
@@ -41,6 +44,8 @@ class TweeterAccountConnector(PublisherMixin, BaseService):
         self._followed_account = account_name
         self._client = tweepy.Client(bearer_token=config.BEARER_TOKEN)
         self._followed_tags = account_tags
+        self._waiting_time = initial_waiting_time
+        self._last_timestamp = last_update
 
     def _get_tweets(self, start_time: Optional[datetime.datetime] = None) -> tweepy.Response:
         args = {
@@ -67,13 +72,12 @@ class TweeterAccountConnector(PublisherMixin, BaseService):
         self._last_timestamp = start_time
         return tweets
 
-    def _prepare_db_connection(self):
-        self._connection = get_psql_connection(cfg=config, dbname=config.PSQL_DB)
-
     def get_tweets_for_default_pooling_period(self) -> datetime.datetime:
         self._logger.debug(f"{self._service_name}::{self._followed_account}::Start to read tweets for a week!")
         response = self._get_tweets()
-        self._logger.debug(f"{self._service_name}::{self._followed_account}::Successful readed tweets for a week!")
+        self._logger.debug(f"{self._service_name}::{self._followed_account}::Successful read tweets for a week!")
+        if not response or not response.data:
+            return datetime.datetime.now(tz=datetime.timezone.utc)
         created_at = response.data[0].created_at
         tweets = TweetSerializer.serialize(response, tags=self._followed_tags)
         for tweet in tweets:
@@ -83,27 +87,19 @@ class TweeterAccountConnector(PublisherMixin, BaseService):
                     body=tweet,
                 )
             )
-        return created_at + datetime.timedelta(seconds=1) if response.data else datetime.datetime.now(tz=datetime.timezone.utc)
+        return created_at + datetime.timedelta(seconds=1)
 
     def prepare_initial_date(self):
-        with self._connection:
-            with self._connection.cursor() as cursor:
-                cursor.execute(
-                    """
-                    SELECT MAX(created_at) FROM tweets WHERE user_id=%s;
-                    """,
-                    (self._followed_account_id, )
-                )
-                last_timestamp = cursor.fetchone()
-        if not last_timestamp[0]:
-            self._logger.debug(f"{self._service_name}::{self._followed_account}::"
-                               f"Empty tweets for account, read for a week!")
-            self._last_timestamp = self.get_tweets_for_default_pooling_period()
-        else:
-            self._last_timestamp = last_timestamp[0]
+        if self._last_timestamp:
+            return
+        self._logger.debug(f"{self._service_name}::{self._followed_account}::"
+                           f"Empty tweets for account, read for a week!")
+        self._last_timestamp = self.get_tweets_for_default_pooling_period()
 
     def setup(self):
-        self._prepare_db_connection()
+        self._logger.debug(f"{self._service_name}::{self._followed_account}::"
+                           f"Waiting initial time {self._waiting_time}s!")
+        time.sleep(self._waiting_time)
         self._logger.info(f"{self._service_name}::{self._followed_account}::Prepare initial data!")
         self.prepare_initial_date()
         self._logger.info(f"{self._service_name}::{self._followed_account}::"

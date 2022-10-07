@@ -1,5 +1,5 @@
 [
-  {
+    {
     "name": "bigten",
     "tags": [],
     "desc": "bigten",
@@ -92,8 +92,8 @@
   {
     "name": "OhioStateBASE",
     "tags": [
-      "base",
-      "osu"
+      "osu",
+      "base"
     ],
     "desc": "OhioStateBASE",
     "id": 399575985
@@ -101,8 +101,8 @@
   {
     "name": "ohiostatehoops",
     "tags": [
-      "mbb",
-      "osu"
+      "osu",
+      "mbb"
     ],
     "desc": "ohiostatehoops",
     "id": 281669945
@@ -110,8 +110,8 @@
   {
     "name": "ohiostatewbb",
     "tags": [
-      "wbb",
-      "osu"
+      "osu",
+      "wbb"
     ],
     "desc": "ohiostatewbb",
     "id": 900280416
@@ -128,20 +128,24 @@
   {
     "name": "ohiostatefb",
     "tags": [
-      "osu",
-      "fb"
+      "fb",
+      "osu"
     ],
     "desc": "ohiostatefb",
     "id": 723239605823107072
   },
   {
-    "name": "OhioStateTFXC",
+    "name": "ohiostatetfxc",
     "tags": [
-      "mxc",
+      "wxc",
       "osu",
-      "wxc"
+      "wotf",
+      "motf",
+      "mxc",
+      "mitf",
+      "witf"
     ],
-    "desc": "OhioStateTFXC",
+    "desc": "ohiostatetfxc",
     "id": 461442471
   },
   {
@@ -165,23 +169,11 @@
   {
     "name": "OhioStateMHKY",
     "tags": [
-      "mhky",
-      "osu"
+      "osu",
+      "mhky"
     ],
     "desc": "OhioStateMHKY",
     "id": 26773650
-  },
-  {
-    "name": "ohiostatetfxc",
-    "tags": [
-      "motf",
-      "witf",
-      "osu",
-      "mitf",
-      "wotf"
-    ],
-    "desc": "ohiostatetfxc",
-    "id": 461442471
   },
   {
     "name": "OhioStateMLAX",
@@ -214,8 +206,8 @@
   {
     "name": "OhioStateMTEN",
     "tags": [
-      "mten",
-      "osu"
+      "osu",
+      "mten"
     ],
     "desc": "OhioStateMTEN",
     "id": 267251926
@@ -241,8 +233,8 @@
   {
     "name": "OhioStateWGOLF",
     "tags": [
-      "osu",
-      "wgolf"
+      "wgolf",
+      "osu"
     ],
     "desc": "OhioStateWGOLF",
     "id": 177314261
@@ -250,8 +242,8 @@
   {
     "name": "OhioStateWGYM",
     "tags": [
-      "wgym",
-      "osu"
+      "osu",
+      "wgym"
     ],
     "desc": "OhioStateWGYM",
     "id": 188476559
@@ -268,8 +260,8 @@
   {
     "name": "OhioStateWROW",
     "tags": [
-      "wrow",
-      "osu"
+      "osu",
+      "wrow"
     ],
     "desc": "OhioStateWROW",
     "id": 895304894
@@ -295,8 +287,8 @@
   {
     "name": "umichbaseball",
     "tags": [
-      "base",
-      "mich"
+      "mich",
+      "base"
     ],
     "desc": "umichbaseball",
     "id": 22798877
@@ -340,13 +332,13 @@
   {
     "name": "UMichTrack",
     "tags": [
-      "motf",
-      "witf",
-      "mich",
-      "mitf",
       "wxc",
       "wotf",
-      "mxc"
+      "motf",
+      "mxc",
+      "mitf",
+      "witf",
+      "mich"
     ],
     "desc": "UMichTrack",
     "id": 27904378
@@ -354,8 +346,8 @@
   {
     "name": "umichmgolf",
     "tags": [
-      "mich",
-      "mgolf"
+      "mgolf",
+      "mich"
     ],
     "desc": "umichmgolf",
     "id": 1243590395851874305
@@ -363,8 +355,8 @@
   {
     "name": "UMichGym",
     "tags": [
-      "mich",
-      "mgym"
+      "mgym",
+      "mich"
     ],
     "desc": "UMichGym",
     "id": 29226754
@@ -372,8 +364,8 @@
   {
     "name": "umichhockey",
     "tags": [
-      "mhky",
-      "mich"
+      "mich",
+      "mhky"
     ],
     "desc": "umichhockey",
     "id": 21777967
@@ -418,8 +410,8 @@
   {
     "name": "umichwrestling",
     "tags": [
-      "wrest",
-      "mich"
+      "mich",
+      "wrest"
     ],
     "desc": "umichwrestling",
     "id": 22798542
@@ -427,8 +419,8 @@
   {
     "name": "umichfldhockey",
     "tags": [
-      "fh",
-      "mich"
+      "mich",
+      "fh"
     ],
     "desc": "umichfldhockey",
     "id": 28099715
@@ -445,8 +437,8 @@
   {
     "name": "UMichWGym",
     "tags": [
-      "wgym",
-      "mich"
+      "mich",
+      "wgym"
     ],
     "desc": "UMichWGym",
     "id": 21800915
@@ -526,8 +518,8 @@
   {
     "name": "IlliniVBall",
     "tags": [
-      "ill",
-      "wvb"
+      "wvb",
+      "ill"
     ],
     "desc": "IlliniVBall",
     "id": 58519799
@@ -535,8 +527,8 @@
   {
     "name": "IlliniFootball",
     "tags": [
-      "ill",
-      "fb"
+      "fb",
+      "ill"
     ],
     "desc": "IlliniFootball",
     "id": 26791995
@@ -544,13 +536,13 @@
   {
     "name": "IlliniTrackXC",
     "tags": [
-      "ill",
-      "motf",
-      "witf",
-      "mitf",
       "wxc",
       "wotf",
-      "mxc"
+      "motf",
+      "mxc",
+      "mitf",
+      "ill",
+      "witf"
     ],
     "desc": "IlliniTrackXC",
     "id": 2857107180
@@ -558,8 +550,8 @@
   {
     "name": "IlliniMGolf",
     "tags": [
-      "ill",
-      "mgolf"
+      "mgolf",
+      "ill"
     ],
     "desc": "IlliniMGolf",
     "id": 62838472
@@ -567,8 +559,8 @@
   {
     "name": "IlliniMGym",
     "tags": [
-      "ill",
-      "mgym"
+      "mgym",
+      "ill"
     ],
     "desc": "IlliniMGym",
     "id": 1952533632
@@ -595,8 +587,8 @@
     "name": "IlliniSwimDive",
     "tags": [
       "msd",
-      "ill",
-      "wsd"
+      "wsd",
+      "ill"
     ],
     "desc": "IlliniSwimDive",
     "id": 62876889
@@ -622,8 +614,8 @@
   {
     "name": "IlliniWGolf",
     "tags": [
-      "ill",
-      "wgolf"
+      "wgolf",
+      "ill"
     ],
     "desc": "IlliniWGolf",
     "id": 1855353536
@@ -631,8 +623,8 @@
   {
     "name": "illiniwgym",
     "tags": [
-      "wgym",
-      "ill"
+      "ill",
+      "wgym"
     ],
     "desc": "illiniwgym",
     "id": 49783682
@@ -676,8 +668,8 @@
   {
     "name": "MSUBaseball",
     "tags": [
-      "base",
-      "msu"
+      "msu",
+      "base"
     ],
     "desc": "MSUBaseball",
     "id": 95450798
@@ -685,8 +677,8 @@
   {
     "name": "MSU_Basketball",
     "tags": [
-      "mbb",
-      "msu"
+      "msu",
+      "mbb"
     ],
     "desc": "MSU_Basketball",
     "id": 57422635
@@ -694,8 +686,8 @@
   {
     "name": "MSU_WBasketball",
     "tags": [
-      "wbb",
-      "msu"
+      "msu",
+      "wbb"
     ],
     "desc": "MSU_WBasketball",
     "id": 57415242
@@ -712,8 +704,8 @@
   {
     "name": "MSU_Football",
     "tags": [
-      "msu",
-      "fb"
+      "fb",
+      "msu"
     ],
     "desc": "MSU_Football",
     "id": 33587536
@@ -721,13 +713,13 @@
   {
     "name": "MSU_TFXC",
     "tags": [
-      "motf",
-      "witf",
-      "mitf",
-      "msu",
       "wxc",
       "wotf",
-      "mxc"
+      "motf",
+      "mxc",
+      "mitf",
+      "msu",
+      "witf"
     ],
     "desc": "MSU_TFXC",
     "id": 239178022
@@ -744,8 +736,8 @@
   {
     "name": "MSU_Hockey",
     "tags": [
-      "mhky",
-      "msu"
+      "msu",
+      "mhky"
     ],
     "desc": "MSU_Hockey",
     "id": 58803348
@@ -753,8 +745,8 @@
   {
     "name": "MSU_Lacrosse",
     "tags": [
-      "mlax",
-      "msu"
+      "msu",
+      "mlax"
     ],
     "desc": "MSU_Lacrosse",
     "id": 3320206519
@@ -762,8 +754,8 @@
   {
     "name": "MSUswimdive",
     "tags": [
-      "msd",
       "msu",
+      "msd",
       "wsd"
     ],
     "desc": "MSUswimdive",
@@ -772,8 +764,8 @@
   {
     "name": "MSU_MTennis",
     "tags": [
-      "mten",
-      "msu"
+      "msu",
+      "mten"
     ],
     "desc": "MSU_MTennis",
     "id": 474994482
@@ -790,8 +782,8 @@
   {
     "name": "MSU_WGolf",
     "tags": [
-      "msu",
-      "wgolf"
+      "wgolf",
+      "msu"
     ],
     "desc": "MSU_WGolf",
     "id": 77028548
@@ -799,8 +791,8 @@
   {
     "name": "MSU_Gymnastics",
     "tags": [
-      "wgym",
-      "msu"
+      "msu",
+      "wgym"
     ],
     "desc": "MSU_Gymnastics",
     "id": 90006673
@@ -808,8 +800,8 @@
   {
     "name": "MSU_Rowing",
     "tags": [
-      "wrow",
-      "msu"
+      "msu",
+      "wrow"
     ],
     "desc": "MSU_Rowing",
     "id": 155867360
@@ -817,8 +809,8 @@
   {
     "name": "MSU_WTennis",
     "tags": [
-      "wten",
-      "msu"
+      "msu",
+      "wten"
     ],
     "desc": "MSU_WTennis",
     "id": 789437197
@@ -826,8 +818,8 @@
   {
     "name": "MSU_wsoccer",
     "tags": [
-      "wsoc",
-      "msu"
+      "msu",
+      "wsoc"
     ],
     "desc": "MSU_wsoccer",
     "id": 778532809
@@ -835,8 +827,8 @@
   {
     "name": "UIBaseball",
     "tags": [
-      "base",
-      "iowa"
+      "iowa",
+      "base"
     ],
     "desc": "UIBaseball",
     "id": 386060495
@@ -844,8 +836,8 @@
   {
     "name": "IowaHoops",
     "tags": [
-      "mbb",
-      "iowa"
+      "iowa",
+      "mbb"
     ],
     "desc": "IowaHoops",
     "id": 55590247
@@ -853,8 +845,8 @@
   {
     "name": "IowaWBB",
     "tags": [
-      "wbb",
-      "iowa"
+      "iowa",
+      "wbb"
     ],
     "desc": "IowaWBB",
     "id": 902089998
@@ -871,8 +863,8 @@
   {
     "name": "HawkeyeFootball",
     "tags": [
-      "iowa",
-      "fb"
+      "fb",
+      "iowa"
     ],
     "desc": "HawkeyeFootball",
     "id": 128467197
@@ -880,13 +872,13 @@
   {
     "name": "IowaXC_TF",
     "tags": [
-      "motf",
-      "witf",
-      "mitf",
-      "iowa",
       "wxc",
       "wotf",
-      "mxc"
+      "motf",
+      "witf",
+      "mxc",
+      "mitf",
+      "iowa"
     ],
     "desc": "IowaXC_TF",
     "id": 242933763
@@ -921,8 +913,8 @@
   {
     "name": "IowaWomensGolf",
     "tags": [
-      "iowa",
-      "wgolf"
+      "wgolf",
+      "iowa"
     ],
     "desc": "IowaWomensGolf",
     "id": 1117210610
@@ -930,8 +922,8 @@
   {
     "name": "IowaGymnastics",
     "tags": [
-      "wgym",
-      "iowa"
+      "iowa",
+      "wgym"
     ],
     "desc": "IowaGymnastics",
     "id": 743524958
@@ -939,8 +931,8 @@
   {
     "name": "WomensLaxIowa",
     "tags": [
-      "wlax",
-      "iowa"
+      "iowa",
+      "wlax"
     ],
     "desc": "WomensLaxIowa",
     "id": 3787863973
@@ -948,8 +940,8 @@
   {
     "name": "iowarowing",
     "tags": [
-      "wrow",
-      "iowa"
+      "iowa",
+      "wrow"
     ],
     "desc": "iowarowing",
     "id": 383901133
@@ -957,8 +949,8 @@
   {
     "name": "iowa_tennis",
     "tags": [
-      "wten",
-      "iowa"
+      "iowa",
+      "wten"
     ],
     "desc": "iowa_tennis",
     "id": 805374086
@@ -975,8 +967,8 @@
   {
     "name": "iowasoftball",
     "tags": [
-      "sb",
-      "iowa"
+      "iowa",
+      "sb"
     ],
     "desc": "iowasoftball",
     "id": 275089901
@@ -984,8 +976,8 @@
   {
     "name": "HawkeyeSoccer",
     "tags": [
-      "wsoc",
-      "iowa"
+      "iowa",
+      "wsoc"
     ],
     "desc": "HawkeyeSoccer",
     "id": 34691263
@@ -1002,8 +994,8 @@
   {
     "name": "RutgersMBB",
     "tags": [
-      "mbb",
-      "rutg"
+      "rutg",
+      "mbb"
     ],
     "desc": "RutgersMBB",
     "id": 902030382
@@ -1011,8 +1003,8 @@
   {
     "name": "RutgersWBB",
     "tags": [
-      "wbb",
-      "rutg"
+      "rutg",
+      "wbb"
     ],
     "desc": "RutgersWBB",
     "id": 900368808
@@ -1029,8 +1021,8 @@
   {
     "name": "NJ_RutgersFB",
     "tags": [
-      "rutg",
-      "fb"
+      "fb",
+      "rutg"
     ],
     "desc": "NJ_RutgersFB",
     "id": 57048241
@@ -1038,9 +1030,9 @@
   {
     "name": "RutgersTFXC",
     "tags": [
-      "mxc",
-      "motf",
       "rutg",
+      "motf",
+      "mxc",
       "mitf"
     ],
     "desc": "RutgersTFXC",
@@ -1058,8 +1050,8 @@
   {
     "name": "rutgersd2hockey",
     "tags": [
-      "mhky",
-      "rutg"
+      "rutg",
+      "mhky"
     ],
     "desc": "rutgersd2hockey",
     "id": 2652677138
@@ -1095,9 +1087,9 @@
     "name": "Rutgers_WomenTF",
     "tags": [
       "witf",
-      "wotf",
       "rutg",
-      "wxc"
+      "wxc",
+      "wotf"
     ],
     "desc": "Rutgers_WomenTF",
     "id": 2548544636
@@ -1114,8 +1106,8 @@
   {
     "name": "RutgersWGolf",
     "tags": [
-      "rutg",
-      "wgolf"
+      "wgolf",
+      "rutg"
     ],
     "desc": "RutgersWGolf",
     "id": 2764995375
@@ -1123,8 +1115,8 @@
   {
     "name": "RUGymnastics",
     "tags": [
-      "wgym",
-      "rutg"
+      "rutg",
+      "wgym"
     ],
     "desc": "RUGymnastics",
     "id": 331120565
@@ -1132,8 +1124,8 @@
   {
     "name": "rutgers_wlax",
     "tags": [
-      "rutg",
-      "wlax"
+      "wlax",
+      "rutg"
     ],
     "desc": "rutgers_wlax",
     "id": 85573406
@@ -1141,8 +1133,8 @@
   {
     "name": "RutgersWRowing",
     "tags": [
-      "wrow",
-      "rutg"
+      "rutg",
+      "wrow"
     ],
     "desc": "RutgersWRowing",
     "id": 277620639
@@ -1159,8 +1151,8 @@
   {
     "name": "RUSwimDive",
     "tags": [
-      "rutg",
-      "wsd"
+      "wsd",
+      "rutg"
     ],
     "desc": "RUSwimDive",
     "id": 128322945
@@ -1177,8 +1169,8 @@
   {
     "name": "RUWSoccer",
     "tags": [
-      "wsoc",
-      "rutg"
+      "rutg",
+      "wsoc"
     ],
     "desc": "RUWSoccer",
     "id": 2676782845
@@ -1186,8 +1178,8 @@
   {
     "name": "IndianaBase",
     "tags": [
-      "base",
-      "ind"
+      "ind",
+      "base"
     ],
     "desc": "IndianaBase",
     "id": 246063599
@@ -1231,8 +1223,8 @@
   {
     "name": "IndianaMGolf",
     "tags": [
-      "ind",
-      "mgolf"
+      "mgolf",
+      "ind"
     ],
     "desc": "IndianaMGolf",
     "id": 223286164
@@ -1240,8 +1232,8 @@
   {
     "name": "Hockey_Indiana",
     "tags": [
-      "mhky",
-      "ind"
+      "ind",
+      "mhky"
     ],
     "desc": "Hockey_Indiana",
     "id": 1583815362
@@ -1249,11 +1241,11 @@
   {
     "name": "IndianaXCTF",
     "tags": [
+      "wotf",
       "motf",
-      "witf",
-      "mitf",
       "ind",
-      "wotf"
+      "mitf",
+      "witf"
     ],
     "desc": "IndianaXCTF",
     "id": 333467236
@@ -1280,8 +1272,8 @@
     "name": "IndianaSwimDive",
     "tags": [
       "msd",
-      "wsd",
-      "ind"
+      "ind",
+      "wsd"
     ],
     "desc": "IndianaSwimDive",
     "id": 63017007
@@ -1298,8 +1290,8 @@
   {
     "name": "IndianaWR",
     "tags": [
-      "wrest",
-      "ind"
+      "ind",
+      "wrest"
     ],
     "desc": "IndianaWR",
     "id": 34023686
@@ -1307,8 +1299,8 @@
   {
     "name": "IndianaFH",
     "tags": [
-      "fh",
-      "ind"
+      "ind",
+      "fh"
     ],
     "desc": "IndianaFH",
     "id": 180388972
@@ -1325,8 +1317,8 @@
   {
     "name": "IndianaRowing",
     "tags": [
-      "wrow",
-      "ind"
+      "ind",
+      "wrow"
     ],
     "desc": "IndianaRowing",
     "id": 43557484
@@ -1370,8 +1362,8 @@
   {
     "name": "TerrapinHoops",
     "tags": [
-      "md",
-      "mbb"
+      "mbb",
+      "md"
     ],
     "desc": "TerrapinHoops",
     "id": 364460082
@@ -1379,8 +1371,8 @@
   {
     "name": "TerpsWBB",
     "tags": [
-      "md",
-      "wbb"
+      "wbb",
+      "md"
     ],
     "desc": "TerpsWBB",
     "id": 873861104
@@ -1388,8 +1380,8 @@
   {
     "name": "TerpsVolleyball",
     "tags": [
-      "md",
-      "wvb"
+      "wvb",
+      "md"
     ],
     "desc": "TerpsVolleyball",
     "id": 746403284
@@ -1397,8 +1389,8 @@
   {
     "name": "TerpsFootball",
     "tags": [
-      "md",
-      "fb"
+      "fb",
+      "md"
     ],
     "desc": "TerpsFootball",
     "id": 964260852
@@ -1406,8 +1398,8 @@
   {
     "name": "TerpsMGolf",
     "tags": [
-      "md",
-      "mgolf"
+      "mgolf",
+      "md"
     ],
     "desc": "TerpsMGolf",
     "id": 380308695
@@ -1424,8 +1416,8 @@
   {
     "name": "TerpsMLax",
     "tags": [
-      "md",
-      "mlax"
+      "mlax",
+      "md"
     ],
     "desc": "TerpsMLax",
     "id": 188026946
@@ -1442,8 +1434,8 @@
   {
     "name": "TerpSwimDive",
     "tags": [
-      "md",
       "msd",
+      "md",
       "wsd"
     ],
     "desc": "TerpSwimDive",
@@ -1470,8 +1462,8 @@
   {
     "name": "TerpsWGolf",
     "tags": [
-      "md",
-      "wgolf"
+      "wgolf",
+      "md"
     ],
     "desc": "TerpsWGolf",
     "id": 366111088
@@ -1488,8 +1480,8 @@
   {
     "name": "MarylandWLax",
     "tags": [
-      "md",
-      "wlax"
+      "wlax",
+      "md"
     ],
     "desc": "MarylandWLax",
     "id": 40153002
@@ -1506,8 +1498,8 @@
   {
     "name": "marylandrowing",
     "tags": [
-      "md",
-      "wrow"
+      "wrow",
+      "md"
     ],
     "desc": "marylandrowing",
     "id": 509453120
@@ -1524,8 +1516,8 @@
   {
     "name": "TerpsSoftball",
     "tags": [
-      "md",
-      "sb"
+      "sb",
+      "md"
     ],
     "desc": "TerpsSoftball",
     "id": 40049263
@@ -1533,8 +1525,8 @@
   {
     "name": "TerpsWSoccer",
     "tags": [
-      "md",
-      "wsoc"
+      "wsoc",
+      "md"
     ],
     "desc": "TerpsWSoccer",
     "id": 371955914
@@ -1551,8 +1543,8 @@
   {
     "name": "GopherMBB",
     "tags": [
-      "mbb",
-      "minn"
+      "minn",
+      "mbb"
     ],
     "desc": "GopherMBB",
     "id": 191894553
@@ -1560,8 +1552,8 @@
   {
     "name": "GopherWBB",
     "tags": [
-      "wbb",
-      "minn"
+      "minn",
+      "wbb"
     ],
     "desc": "GopherWBB",
     "id": 378174762
@@ -1578,8 +1570,8 @@
   {
     "name": "GopherFootball",
     "tags": [
-      "minn",
-      "fb"
+      "fb",
+      "minn"
     ],
     "desc": "GopherFootball",
     "id": 26813914
@@ -1587,13 +1579,13 @@
   {
     "name": "GopherCCTF",
     "tags": [
-      "motf",
-      "witf",
-      "mitf",
       "wxc",
       "wotf",
+      "minn",
+      "motf",
       "mxc",
-      "minn"
+      "mitf",
+      "witf"
     ],
     "desc": "GopherCCTF",
     "id": 1663224744
@@ -1610,8 +1602,8 @@
   {
     "name": "GopherHockey",
     "tags": [
-      "mhky",
-      "minn"
+      "minn",
+      "mhky"
     ],
     "desc": "GopherHockey",
     "id": 149976996
@@ -1629,8 +1621,8 @@
     "name": "GopherSwimDive",
     "tags": [
       "msd",
-      "minn",
-      "wsd"
+      "wsd",
+      "minn"
     ],
     "desc": "GopherSwimDive",
     "id": 1210522765
@@ -1638,8 +1630,8 @@
   {
     "name": "GopherMTennis",
     "tags": [
-      "mten",
-      "minn"
+      "minn",
+      "mten"
     ],
     "desc": "GopherMTennis",
     "id": 170025019
@@ -1656,8 +1648,8 @@
   {
     "name": "GopherWGolf",
     "tags": [
-      "minn",
-      "wgolf"
+      "wgolf",
+      "minn"
     ],
     "desc": "GopherWGolf",
     "id": 296452769
@@ -1665,8 +1657,8 @@
   {
     "name": "GopherWGym",
     "tags": [
-      "wgym",
-      "minn"
+      "minn",
+      "wgym"
     ],
     "desc": "GopherWGym",
     "id": 52109909
@@ -1674,8 +1666,8 @@
   {
     "name": "gopherwlax",
     "tags": [
-      "minn",
-      "wlax"
+      "wlax",
+      "minn"
     ],
     "desc": "gopherwlax",
     "id": 887697559
@@ -1683,8 +1675,8 @@
   {
     "name": "Gopher_Rowing",
     "tags": [
-      "wrow",
-      "minn"
+      "minn",
+      "wrow"
     ],
     "desc": "Gopher_Rowing",
     "id": 133902456
@@ -1710,8 +1702,8 @@
   {
     "name": "GopherSoccer",
     "tags": [
-      "wsoc",
-      "minn"
+      "minn",
+      "wsoc"
     ],
     "desc": "GopherSoccer",
     "id": 54538176
@@ -1728,8 +1720,8 @@
   {
     "name": "HuskerHoops",
     "tags": [
-      "neb",
-      "mbb"
+      "mbb",
+      "neb"
     ],
     "desc": "HuskerHoops",
     "id": 30954864
@@ -1755,8 +1747,8 @@
   {
     "name": "HuskerFBNation",
     "tags": [
-      "neb",
-      "fb"
+      "fb",
+      "neb"
     ],
     "desc": "HuskerFBNation",
     "id": 2151130166
@@ -1791,11 +1783,11 @@
   {
     "name": "NUTrackandField",
     "tags": [
+      "wotf",
       "motf",
-      "witf",
-      "mitf",
       "neb",
-      "wotf"
+      "mitf",
+      "witf"
     ],
     "desc": "NUTrackandField",
     "id": 107215013
@@ -1803,8 +1795,8 @@
   {
     "name": "NebraskaLax",
     "tags": [
-      "neb",
-      "mlax"
+      "mlax",
+      "neb"
     ],
     "desc": "NebraskaLax",
     "id": 114064627
@@ -1812,8 +1804,8 @@
   {
     "name": "huskermtennis",
     "tags": [
-      "mten",
-      "neb"
+      "neb",
+      "mten"
     ],
     "desc": "huskermtennis",
     "id": 785635207
@@ -1830,8 +1822,8 @@
   {
     "name": "huskerwgolf",
     "tags": [
-      "neb",
-      "wgolf"
+      "wgolf",
+      "neb"
     ],
     "desc": "huskerwgolf",
     "id": 2357303304
@@ -1866,8 +1858,8 @@
   {
     "name": "HuskerSwimNDive",
     "tags": [
-      "neb",
-      "wsd"
+      "wsd",
+      "neb"
     ],
     "desc": "HuskerSwimNDive",
     "id": 2885783453
@@ -1875,8 +1867,8 @@
   {
     "name": "HuskerSoftball",
     "tags": [
-      "neb",
-      "sb"
+      "sb",
+      "neb"
     ],
     "desc": "HuskerSoftball",
     "id": 397376255
@@ -1893,8 +1885,8 @@
   {
     "name": "NUCatsBaseball",
     "tags": [
-      "base",
-      "nw"
+      "nw",
+      "base"
     ],
     "desc": "NUCatsBaseball",
     "id": 1295467256
@@ -1920,8 +1912,8 @@
   {
     "name": "NUVball",
     "tags": [
-      "nw",
-      "wvb"
+      "wvb",
+      "nw"
     ],
     "desc": "NUVball",
     "id": 179635621
@@ -1938,12 +1930,12 @@
   {
     "name": "nuxc_wildcats",
     "tags": [
-      "motf",
-      "witf",
-      "mitf",
       "wxc",
       "wotf",
+      "motf",
       "mxc",
+      "mitf",
+      "witf",
       "nw"
     ],
     "desc": "nuxc_wildcats",
@@ -1953,8 +1945,8 @@
     "name": "NUGolf_Live",
     "tags": [
       "wgolf",
-      "nw",
-      "mgolf"
+      "mgolf",
+      "nw"
     ],
     "desc": "NUGolf_Live",
     "id": 247592446
@@ -1962,8 +1954,8 @@
   {
     "name": "NUMENSICEHOCKEY",
     "tags": [
-      "mhky",
-      "nw"
+      "nw",
+      "mhky"
     ],
     "desc": "NUMENSICEHOCKEY",
     "id": 176888750
@@ -1998,8 +1990,8 @@
   {
     "name": "NUFHCats",
     "tags": [
-      "fh",
-      "nw"
+      "nw",
+      "fh"
     ],
     "desc": "NUFHCats",
     "id": 124597783
@@ -2097,8 +2089,8 @@
   {
     "name": "PennStateFball",
     "tags": [
-      "psu",
-      "fb"
+      "fb",
+      "psu"
     ],
     "desc": "PennStateFball",
     "id": 53103297
@@ -2106,13 +2098,13 @@
   {
     "name": "PennStateTFXC",
     "tags": [
-      "psu",
-      "motf",
-      "witf",
-      "mitf",
       "wxc",
       "wotf",
-      "mxc"
+      "psu",
+      "motf",
+      "mxc",
+      "mitf",
+      "witf"
     ],
     "desc": "PennStateTFXC",
     "id": 21801562
@@ -2175,8 +2167,8 @@
   {
     "name": "pennstateMTEN",
     "tags": [
-      "mten",
-      "psu"
+      "psu",
+      "mten"
     ],
     "desc": "pennstateMTEN",
     "id": 625571684
@@ -2202,8 +2194,8 @@
   {
     "name": "PennStateWGolf",
     "tags": [
-      "psu",
-      "wgolf"
+      "wgolf",
+      "psu"
     ],
     "desc": "PennStateWGolf",
     "id": 628488948
@@ -2220,8 +2212,8 @@
   {
     "name": "PennStateWLAX",
     "tags": [
-      "psu",
-      "wlax"
+      "wlax",
+      "psu"
     ],
     "desc": "PennStateWLAX",
     "id": 491835043
@@ -2229,8 +2221,8 @@
   {
     "name": "PennStateCrew",
     "tags": [
-      "wrow",
-      "psu"
+      "psu",
+      "wrow"
     ],
     "desc": "PennStateCrew",
     "id": 534467412
@@ -2247,8 +2239,8 @@
   {
     "name": "PennStateSB",
     "tags": [
-      "psu",
-      "sb"
+      "sb",
+      "psu"
     ],
     "desc": "PennStateSB",
     "id": 78632208
@@ -2256,8 +2248,8 @@
   {
     "name": "PennStateWSOC",
     "tags": [
-      "wsoc",
-      "psu"
+      "psu",
+      "wsoc"
     ],
     "desc": "PennStateWSOC",
     "id": 26258241
@@ -2301,8 +2293,8 @@
   {
     "name": "BoilerFootball",
     "tags": [
-      "pur",
-      "fb"
+      "fb",
+      "pur"
     ],
     "desc": "BoilerFootball",
     "id": 44468807
@@ -2310,13 +2302,13 @@
   {
     "name": "PurdueTrackXC",
     "tags": [
-      "pur",
-      "motf",
-      "witf",
-      "mitf",
       "wxc",
       "wotf",
-      "mxc"
+      "motf",
+      "pur",
+      "mxc",
+      "mitf",
+      "witf"
     ],
     "desc": "PurdueTrackXC",
     "id": 239916421
@@ -2334,8 +2326,8 @@
     "name": "PurdueGymnasts",
     "tags": [
       "pur",
-      "wgym",
-      "mgym"
+      "mgym",
+      "wgym"
     ],
     "desc": "PurdueGymnasts",
     "id": 1280939431
@@ -2379,8 +2371,8 @@
   {
     "name": "PurdueMTennis",
     "tags": [
-      "mten",
-      "pur"
+      "pur",
+      "mten"
     ],
     "desc": "PurdueMTennis",
     "id": 726417642
@@ -2397,8 +2389,8 @@
   {
     "name": "PurdueWGolf",
     "tags": [
-      "pur",
-      "wgolf"
+      "wgolf",
+      "pur"
     ],
     "desc": "PurdueWGolf",
     "id": 726426655
@@ -2424,8 +2416,8 @@
   {
     "name": "PurdueWTennis",
     "tags": [
-      "wten",
-      "pur"
+      "pur",
+      "wten"
     ],
     "desc": "PurdueWTennis",
     "id": 726433988
@@ -2460,8 +2452,8 @@
   {
     "name": "badgerbasebalI",
     "tags": [
-      "base",
-      "wis"
+      "wis",
+      "base"
     ],
     "desc": "badgerbasebalI",
     "id": 1142181519542427649
@@ -2478,8 +2470,8 @@
   {
     "name": "BadgerWBB",
     "tags": [
-      "wbb",
-      "wis"
+      "wis",
+      "wbb"
     ],
     "desc": "BadgerWBB",
     "id": 45891626
@@ -2487,8 +2479,8 @@
   {
     "name": "BadgerVB",
     "tags": [
-      "wvb",
-      "wis"
+      "wis",
+      "wvb"
     ],
     "desc": "BadgerVB",
     "id": 31512987
@@ -2505,13 +2497,13 @@
   {
     "name": "BadgerTrackXC",
     "tags": [
-      "motf",
-      "wis",
-      "witf",
-      "mitf",
       "wxc",
       "wotf",
-      "mxc"
+      "wis",
+      "motf",
+      "mxc",
+      "mitf",
+      "witf"
     ],
     "desc": "BadgerTrackXC",
     "id": 44938639
@@ -2528,9 +2520,9 @@
   {
     "name": "WiscoGymnastics",
     "tags": [
-      "wgym",
       "wis",
-      "mgym"
+      "mgym",
+      "wgym"
     ],
     "desc": "WiscoGymnastics",
     "id": 2442950874
@@ -2538,8 +2530,8 @@
   {
     "name": "BadgerMHockey",
     "tags": [
-      "mhky",
-      "wis"
+      "wis",
+      "mhky"
     ],
     "desc": "BadgerMHockey",
     "id": 21319189
@@ -2547,8 +2539,8 @@
   {
     "name": "TeamSconnieLax",
     "tags": [
-      "mlax",
       "wlax",
+      "mlax",
       "wis"
     ],
     "desc": "TeamSconnieLax",
@@ -2567,8 +2559,8 @@
     "name": "badgerswimdive",
     "tags": [
       "msd",
-      "wsd",
-      "wis"
+      "wis",
+      "wsd"
     ],
     "desc": "badgerswimdive",
     "id": 331874962
@@ -2576,8 +2568,8 @@
   {
     "name": "BadgerMTennis",
     "tags": [
-      "mten",
-      "wis"
+      "wis",
+      "mten"
     ],
     "desc": "BadgerMTennis",
     "id": 873762367
@@ -2585,8 +2577,8 @@
   {
     "name": "BadgerWrestling",
     "tags": [
-      "wrest",
-      "wis"
+      "wis",
+      "wrest"
     ],
     "desc": "BadgerWrestling",
     "id": 65095263
@@ -2603,8 +2595,8 @@
   {
     "name": "BadgerRowing",
     "tags": [
-      "wrow",
-      "wis"
+      "wis",
+      "wrow"
     ],
     "desc": "BadgerRowing",
     "id": 26576092
@@ -2630,8 +2622,8 @@
   {
     "name": "BadgerWSoccer",
     "tags": [
-      "wsoc",
-      "wis"
+      "wis",
+      "wsoc"
     ],
     "desc": "BadgerWSoccer",
     "id": 44937728
