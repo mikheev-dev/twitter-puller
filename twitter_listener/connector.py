@@ -87,7 +87,9 @@ class TweeterAccountConnector(PublisherMixin, BaseService):
                     body=tweet,
                 )
             )
-        return created_at + datetime.timedelta(seconds=1)
+        if created_at < (datetime.datetime.now(tz=datetime.timezone.utc) - datetime.timedelta(weeks=1)):
+            created_at = datetime.datetime.now(tz=datetime.timezone.utc) - datetime.timedelta(weeks=1)
+        return created_at + datetime.timedelta(minutes=15)
 
     def prepare_initial_date(self):
         if self._last_timestamp:
