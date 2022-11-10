@@ -45,7 +45,8 @@ class TweeterAccountConnector(PublisherMixin, BaseService):
         self._client = tweepy.Client(bearer_token=config.BEARER_TOKEN)
         self._followed_tags = account_tags
         self._waiting_time = initial_waiting_time
-        self._last_timestamp = last_update
+        max_twitter_period_for_request = datetime.datetime.now() - datetime.timedelta(weeks=1)
+        self._last_timestamp = last_update if last_update and last_update > max_twitter_period_for_request else None
 
     def _get_tweets(self, start_time: Optional[datetime.datetime] = None) -> tweepy.Response:
         args = {
@@ -87,10 +88,7 @@ class TweeterAccountConnector(PublisherMixin, BaseService):
                     body=tweet,
                 )
             )
-        twitter_max_period_border = datetime.datetime.now(tz=datetime.timezone.utc) - datetime.timedelta(weeks=1)
-        if created_at >= twitter_max_period_border:
-            return created_at + datetime.timedelta(seconds=1)
-        return twitter_max_period_border + datetime.timedelta(hours=2)
+        return created_at + datetime.timedelta(seconds=1)
 
     def prepare_initial_date(self):
         if self._last_timestamp:
