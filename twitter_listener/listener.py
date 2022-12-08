@@ -94,7 +94,6 @@ class TwitterListener(MPController):
             if idx // config.ACCOUNTS_IN_TIME_SLOT > last_account_batch:
                 last_account_batch += 1
                 last_slot_start += slot_duration
-        print([account.initial_wait_time for account in accounts])
 
     def setup_following_accounts(self) -> List[FollowingAccount]:
         cfg = TwitterConnectorConfig()

@@ -1,75 +1,95 @@
-from logging import Logger
-from multiprocessing import Queue, get_logger
-
 import logging
+import time
+import tweepy
 
-from lib.mp.controller import MPController
-from lib.mp.publisher import MPQueuePublisher
-from lib.mp.receiver import MPQueueReceiver
-from lib.mp.wrapper import MPWrapper
+import sys
 
+from twitter_listener.connector import TweeterAccountConnector
+from twitter_listener.listener import TwitterListener, FollowingAccount
 from db_twitter_writer.writer import DBTwitterWriter
-from db_twitter_writer.db_twitter_publisher import BasePostgresTwitterPublisher
 from tags_extractor.extractor import TagsExtractorService
-from twitter_listener.listener import TwitterListener
-from lib.service.service import PipelineService
+from db_twitter_writer.db_twitter_publisher import BasePostgresTwitterPublisher
+
+from lib.pubsub.publisher import SyncPublisher
+from lib.pubsub.receiver import SyncReceiver
+
+from lib.config import BaseConfig
+from collections import deque
+from typing import List
 
 
-def get_mp_logger(log_level) -> Logger:
+logger = logging.getLogger("sync_service")
+cfg = BaseConfig()
+
+
+def get_logger(log_level) -> logging.Logger:
     level = log_level
-    logger = get_logger()
+    logger = logging.getLogger()
     formatter = logging.Formatter("%(asctime)s]:[%(name)s]:{%(levelname)s}:%(message)s")
-    handler = logging.StreamHandler()
+    handler = logging.StreamHandler(sys.stdout)
     handler.setFormatter(formatter)
     logger.addHandler(handler)
     logger.setLevel(level)
     return logger
 
 
-class TwitterPoolerService(MPController):
-    def __init__(
-            self,
-            listener: TwitterListener,
-            tags_extractor: TagsExtractorService,
-            writer: DBTwitterWriter,
-            logger: Logger,
-    ):
-        super(TwitterPoolerService, self).__init__()
-        self._logger = logger
-        self._processes = {
-            'listener': MPWrapper(listener),
-            'writer': MPWrapper(writer),
-            'tag_extractor': MPWrapper(tags_extractor),
-        }
-
-
-mp_logger = get_mp_logger(log_level='DEBUG')
-
-
 if __name__ == "__main__":
-    unparsed_q = Queue()
-    parsed_q = Queue()
-    listener = TwitterListener(
-        publisher=MPQueuePublisher(queue=unparsed_q),
-        logger=mp_logger,
+    logger = get_logger(cfg.LOG_LEVEL)
+    unparsed_q = deque()
+    parsed_q = deque()
+
+    sync_publisher = SyncPublisher(
+        queue=unparsed_q,
+        logger=logger,
     )
 
+    accounts: List[FollowingAccount] = TwitterListener(
+        publisher=None,
+        logger=logger,
+    ).setup_following_accounts()
+
     tags_extractor = TagsExtractorService(
-        receiver=MPQueueReceiver(queue=unparsed_q),
-        publisher=MPQueuePublisher(queue=parsed_q),
-        logger=mp_logger,
+        receiver=SyncReceiver(queue=unparsed_q, logger=logger),
+        publisher=SyncPublisher(queue=parsed_q, logger=logger),
+        logger=logger,
+        sync=True,
     )
 
     writer = DBTwitterWriter(
-        receiver=MPQueueReceiver(queue=parsed_q),
+        receiver=SyncReceiver(queue=parsed_q, logger=logger),
         db_publisher=BasePostgresTwitterPublisher(),
-        logger=mp_logger,
+        logger=logger,
+        sync=True,
     )
 
-    controller = TwitterPoolerService(
-        listener=listener,
-        tags_extractor=tags_extractor,
-        writer=writer,
-        logger=mp_logger
-    )
-    controller.run()
+    total_read_tweets_count = 0
+    for account in accounts:
+        twitter_reader = TweeterAccountConnector(
+            account_id=account.id,
+            account_name=account.name,
+            publisher=sync_publisher,
+            logger=logger,
+            account_tags=account.tags,
+            last_update=account.last_update,
+            initial_waiting_time=0,
+            sync=True,
+        )
+        idx = 0
+        for _ in range(3):
+            try:
+                read_tweets_count = twitter_reader.sync()
+                total_read_tweets_count += read_tweets_count
+                break
+            except tweepy.errors.TooManyRequests as e:
+                logger.error(f"Error {e} occured!")
+                sync_publisher.clear()
+                time.sleep(60)
+                idx += 1
+
+        if idx >= 3:
+            logger.error("Can't get tweets for 3 retry!")
+
+        tags_extractor.sync()
+        writer.sync()
+        time.sleep(0.6)
+    logger.info(f"Total read tweets count = {total_read_tweets_count}")

@@ -23,6 +23,13 @@ class BaseConfig:
     PSQL_PASSWORD = get_env_var('PSQL_PASSWORD', default='password')
     PSQL_DB = get_env_var('PSQL_DB', default='tweets')
 
+    def __str__(self):
+        return str({
+            k: v
+            for k, v in self.__class__.__dict__.items()
+            if k.isupper()
+        })
+
 
 class DevConfig(BaseConfig):
     pass
