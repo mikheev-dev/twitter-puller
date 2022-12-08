@@ -10,10 +10,13 @@ class DBTwitterWriter(PipelineService):
             self,
             receiver: BaseReceiver,
             db_publisher: BasePostgresPublisher,
-            logger: Logger
+            logger: Logger,
+            sync=True,
      ):
-        super().__init__(
+        PipelineService.__init__(
+            self,
             receiver=receiver,
             publisher=db_publisher,
             logger=logger,
+            sync=sync,
         )

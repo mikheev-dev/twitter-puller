@@ -1,4 +1,4 @@
-from tweepy import Tweet, Response, Media
+from tweepy import Tweet, Response, Media, Paginator
 from typing import List, Dict
 
 
@@ -39,8 +39,8 @@ class TweetSerializer:
                 tweet_media_urls.append(media_url)
         return tweet_media_urls
 
-    @staticmethod
-    def serialize(response: Response, tags: List[str]) -> List[Dict]:
+    @classmethod
+    def serialize(cls, response: Response, tags: List[str]) -> List[Dict]:
         if not response.data:
             return []
         media = response.includes.get('media')
@@ -55,3 +55,10 @@ class TweetSerializer:
                 }
             )
         return tweets
+
+    @classmethod
+    def serialize_paginator(cls, response_pages: Paginator, tags: List[str]) -> List[Dict]:
+        data = []
+        for page in response_pages:
+            data.extend(TweetSerializer.serialize(response=page, tags=tags))
+        return data

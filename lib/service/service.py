@@ -10,9 +10,11 @@ from lib.pubsub.publisher import BasePublisher
 class BaseService(ABC):
     _logger: Logger
     _service_name: str
+    _sync: bool
 
-    def __init__(self):
+    def __init__(self, sync: bool = False):
         self._service_name = self.__class__.__name__
+        self._sync = sync
 
     def setup(self):
         pass
@@ -20,6 +22,9 @@ class BaseService(ABC):
     @abstractmethod
     def main(self):
         raise NotImplementedError
+
+    def sync(self):
+        pass
 
     def run(self):
         self.setup()
@@ -30,15 +35,16 @@ class BaseService(ABC):
             self._logger.error(f"Exception {e}'s happened! {self._service_name} stopped.")
 
 
-class PipelineService(PublisherMixin, ReceiverMixin, BaseService):
+class PipelineService(BaseService, PublisherMixin, ReceiverMixin):
     def __init__(
             self,
             receiver: BaseReceiver,
             publisher: BasePublisher,
-            logger: Logger
+            logger: Logger,
+            sync: bool = False,
     ):
         self._logger = logger
-        super().__init__()
+        BaseService.__init__(self, sync)
         self.set_receiver(receiver)
         self.set_publisher(publisher)
 
@@ -51,3 +57,10 @@ class PipelineService(PublisherMixin, ReceiverMixin, BaseService):
         event = self.handle_event(event)
         self._publisher.publish(event)
         self._logger.debug(f"{self._service_name}: Publish event.")
+
+    def sync(self):
+        try:
+            while True:
+                self.main()
+        except Exception:
+            return
