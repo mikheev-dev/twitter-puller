@@ -74,6 +74,8 @@ class TweeterAccountConnector(BaseService, PublisherMixin):
         if not self._last_timestamp:
             self._logger.debug(f"{self._service_name}::{self._followed_account}::"
                                f"Empty tweets for account, read for a week!")
+        if self._last_timestamp:
+            self._last_timestamp += datetime.timedelta(seconds=1)
         start_time = datetime.datetime.now(tz=datetime.timezone.utc)
         responses: tweepy.Paginator = self._get_tweets(start_time=self._last_timestamp.replace(tzinfo=pytz.utc))
         tweets = TweetSerializer.serialize_paginator(responses, tags=self._followed_tags)
