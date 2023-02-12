@@ -29,6 +29,6 @@ class BasePostgresTwitterPublisher(BasePostgresPublisher):
                         event.body.created_at,
                         event.body.is_retweet,
                         event.body.media,
-                        json.dumps(dataclasses.asdict(event.body))
+                        json.dumps(event.body.doc),
                     )
                 )

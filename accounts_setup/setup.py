@@ -45,12 +45,13 @@ def create_tables(connection):
             create_tweets_table(cursor)
 
 
-def fill_accounts_values(connection, path_to_file: str):
+def fill_accounts_values(connection, path_to_file: str, accounts_range: int = None):
     with open(path_to_file) as f:
         accounts = json.load(f)
     with connection:
         with connection.cursor() as cursor:
-            for account in accounts:
+            accounts_to_insert = accounts if not accounts_range else accounts[:accounts_range]
+            for account in accounts_to_insert:
                 cursor.execute(
                     f"""
                         INSERT INTO accounts (id, name, tags, description)
@@ -83,11 +84,11 @@ def create_tweets_table(cursor):
 
 if __name__ == "__main__":
     cfg = DevConfig()
-    print('Create database')
-    create_database(cfg)
+    # print('Create database')
+    # create_database(cfg)
     connection = get_psql_connection(cfg, dbname=cfg.PSQL_DB)
     print('Create tables')
     create_tables(connection)
     print('Fill accounts')
-    fill_accounts_values(connection, path_to_file=PATH_TO_ACCOUNTS)
+    fill_accounts_values(connection, path_to_file=PATH_TO_ACCOUNTS, accounts_range=5)
     connection.close()

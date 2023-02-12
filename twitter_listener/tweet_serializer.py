@@ -1,6 +1,8 @@
 from tweepy import Tweet, Response, Media, Paginator
 from typing import List, Dict
 
+import copy
+
 
 class TweetSerializer:
     @staticmethod
@@ -52,6 +54,7 @@ class TweetSerializer:
                 {
                     'media_urls': TweetSerializer._extract_media_url_for_tweet(tweet, media_keys_to_urls),
                     'tags': tags,
+                    'doc': copy.copy(tweet.data),
                 }
             )
         return tweets

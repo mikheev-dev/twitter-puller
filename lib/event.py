@@ -13,6 +13,7 @@ class FullParsedTweetBody:
     is_retweet: bool
     media: List[str]
     created_at: datetime.datetime
+    doc: Dict
 
 
 @dataclass

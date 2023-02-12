@@ -54,7 +54,6 @@ if __name__ == "__main__":
         logger=logger,
         sync=True,
     )
-
     writer = DBTwitterWriter(
         receiver=SyncReceiver(queue=parsed_q, logger=logger),
         db_publisher=BasePostgresTwitterPublisher(),

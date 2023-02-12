@@ -55,7 +55,19 @@ class TweeterAccountConnector(BaseService, PublisherMixin):
     def _get_tweets(self, start_time: Optional[datetime.datetime] = None) -> tweepy.Paginator:
         args = {
             'query': f'from:{self._followed_account}',
-            'tweet_fields': ['created_at', 'entities', 'author_id'],
+            'tweet_fields': [
+              'lang',
+              'source',
+              'in_reply_to_user_id',
+              'entities',
+              'author_id',
+              'referenced_tweets',
+              'public_metrics',
+              'context_annotations',
+              'created_at',
+              'attachments',
+              'possibly_sensitive'
+            ],
             'expansions':  ['referenced_tweets.id', 'attachments.media_keys'],
             'media_fields': ['media_key', 'type', 'url', 'preview_image_url'],
             'max_results': 100,

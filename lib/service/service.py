@@ -59,8 +59,11 @@ class PipelineService(BaseService, PublisherMixin, ReceiverMixin):
         self._logger.debug(f"{self._service_name}: Publish event.")
 
     def sync(self):
+        count_read = 0
         try:
             while True:
                 self.main()
-        except Exception:
+                count_read += 1
+        except Exception as e:
+            print(f"Handled {count_read} events by {self.__class__.__name__}")
             return

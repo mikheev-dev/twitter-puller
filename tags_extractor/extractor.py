@@ -55,5 +55,6 @@ class TagsExtractorService(PipelineService):
                 is_retweet=is_retweet,
                 media=media_urls,
                 created_at=tweet['created_at'],
+                doc=tweet['doc'],
             )
         )
