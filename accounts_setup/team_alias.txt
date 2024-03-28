@@ -1,0 +1,216 @@
+# AMCC A&M-Corpus Christi Islanders mbb
+# AFA Air Force Falcons wvb
+# AKR Akron Zips fb
+# AAMU Alabama A&M Bulldogs wvb
+# ALA Alabama Crimson Tide wbb
+# ALST Alabama St. Hornets mbb
+# ALCN Alcorn Braves mbb
+# ASU Arizona St. Sun Devils wvb
+# ARIZ Arizona Wildcats wvb
+# ARK Arkansas Razorbacks fb
+# ARST Arkansas St. Red Wolves mbb
+# ARMY Army West Point Black Knights fb
+# AUB Auburn Tigers fb
+# BYU BYU Cougars wvb
+# BALL Ball St. Cardinals wvb
+# BAY Baylor Bears mbb
+# BC Boston College Eagles wvb
+# BGSU Bowling Green Falcons wvb
+# BRWN Brown Bears mbb
+# BUFF Buffalo Bulls fb
+# BUT Butler Bulldogs wbb
+# CAMP Campbell Camels wvb
+# CAN Canisius Golden Griffins wvb
+# CCSU Central Conn. St. Blue Devils wbb
+CMU Central Mich. Chippewas wvb
+CHAR Charlotte 49ers fb
+CHAT Chattanooga Mocs mbb
+CHS Chicago St. Cougars wvb
+CIN Cincinnati Bearcats fb
+CLEM Clemson Tigers wbb
+CCAR Coastal Carolina Chanticleers wvb
+COLG Colgate Raiders mbb
+COLO Colorado Buffaloes wvb
+CSU Colorado St. Rams fb
+CLMB Columbia Lions wvb
+COR Cornell Big Red mbb
+CREI Creighton Bluejays wvb
+DAV Davidson Wildcats mbb
+DAY Dayton Flyers wvb
+DEP DePaul Blue Demons wvb
+DEL Delaware Blue Hens fb
+DSU Delaware St. Hornets wbb
+DEN Denver Pioneers wvb
+DREX Drexel Dragons wbb
+DUKE Duke Blue Devils wvb
+ETSU ETSU Buccaneers (Bucs) wvb
+EIU Eastern Ill. Panthers mbb
+EMU Eastern Mich. Eagles wvb
+FGCU FGCU Eagles wvb
+FDU Fairleigh Dickinson Knights mbb
+FAMU Florida A&M Rattlers mbb
+FLA Florida Gators wvb
+FSU Florida St. Seminoles wbb
+FOR Fordham Rams fb
+GMU George Mason Patriots mbb
+GW George Washington Colonials wbb
+UGA Georgia Bulldogs mbb
+GT Georgia Tech Yellow Jackets wvb
+GC Grand Canyon Lopes mbb
+GB Green Bay Phoenix wbb
+HP High Point Panthers mbb
+HOF Hofstra Pride mbb
+HOU Houston Cougars mbb
+HOW Howard Bison wvb
+IUPU IUPUI Jaguars wbb
+IDST Idaho St. Bengals mbb
+IDHO Idaho Vandals fb
+// ILL Illinois Fighting Illini wvb
+ILST Illinois St. Redbirds wvb
+IW Incarnate Word Cardinals mbb
+// IND Indiana Hoosiers wvb
+INST Indiana St. Sycamores fb
+IONA Iona Gaels wvb
+// IOWA Iowa Hawkeyes wvb
+ISU Iowa St. Cyclones wvb
+JKST Jackson St. Tigers mbb
+JAC Jacksonville Dolphins wbb
+JVST Jacksonville St. Gamecocks wvb
+JMU James Madison Dukes wvb
+UMKC Kansas City Kangaroos mbb
+KU Kansas Jayhawks mbb
+KSU Kansas St. Wildcats wvb
+KENN Kennesaw St. Owls mbb
+KENT Kent St. Golden Flashes fb
+UK Kentucky Wildcats wvb
+LSU LSU Fighting Tigers mbb
+LAF Lafayette Leopards mbb
+LEH Lehigh Mountain Hawks mbb
+LIP Lipscomb Bisons wvb
+LONG Longwood Lancers wbb
+ULL Louisiana Ragin' Cajuns mbb
+LOU Louisville Cardinals wvb
+L-IL Loyola Chicago Ramblers wvb
+L-MD Loyola Maryland Greyhounds mbb
+ME Maine Black Bears wbb
+MARQ Marquette Golden Eagles wvb
+MRSH Marshall Thundering Herd wbb
+// MD Maryland Terrapins fb
+MASS Massachusetts Minutemen mbb
+MRMK Merrimack Warriors mbb
+MIA Miami (FL) Hurricanes wbb
+M-OH Miami (OH) RedHawks fb
+// MSU Michigan St. Spartans wvb
+// MICH Michigan Wolverines wvb
+MILW Milwaukee Panthers wvb
+// MINN Minnesota Golden Gophers wvb
+MSST Mississippi St. Bulldogs wvb
+MIZZ Missouri Tigers wbb
+MORG Morgan St. Bears mbb
+NCCU N.C. Central Eagles wbb
+NCST NC State Wolfpack wvb
+NIU NIU Huskies fb
+NJIT NJIT Highlanders wbb
+NAVY Navy Midshipmen wvb
+// NEB Nebraska Cornhuskers wvb
+NMSU New Mexico St. Aggies wvb
+UNO New Orleans Privateers mbb
+NIAG Niagara Purple Eagles wbb
+NICH Nicholls St. Colonels mbb
+UNC North Carolina Tar Heels wvb
+UNT North Texas Mean Green wvb
+NAU Northern Ariz. Lumberjacks wvb
+UNCO Northern Colo. Bears wvb
+NKU Northern Ky. Norse wvb
+// NW Northwestern Wildcats wvb
+ND Notre Dame Fighting Irish fb
+OAK Oakland Golden Grizzlies wvb
+OHIO Ohio Bobcats fb
+// OSU Ohio St. Buckeyes wvb
+OKLA Oklahoma Sooners wvb
+MISS Ole Miss Rebels wvb
+NEOM Omaha Mavericks mbb
+ORU Oral Roberts Golden Eagles mbb
+ORE Oregon Ducks wvb
+ORST Oregon St. Beavers wbb
+// PSU Penn St. Nittany Lions wvb
+PITT Pittsburgh Panthers wvb
+PRST Portland St. Vikings mbb
+PV Prairie View Lady Panthers wbb
+PRIN Princeton Tigers mbb
+PROV Providence Friars mbb
+// PUR Purdue Boilermakers wvb
+PFW Purdue Fort Wayne Mastodons mbb
+QUIN Quinnipiac Bobcats wbb
+URI Rhode Island Rams wvb
+RICH Richmond Spiders mbb
+RID Rider Broncs wbb
+RMU Robert Morris Colonials wvb
+// RUTG Rutgers Scarlet Knights wvb
+SMU SMU Mustangs wvb
+SFPA Saint Francis (PA) The Red Flash mbb
+SMC Saint Mary's (CA) Gaels mbb
+SPC Saint Peter's Peacocks mbb
+SHSU Sam Houston Bearkats mbb
+SDSU San Diego St. Aztecs wbb
+HALL Seton Hall Pirates mbb
+SDAK South Dakota Coyotes wbb
+USF South Fla. Bulls wvb
+SEMO Southeast Mo. St. Redhawks wvb
+SELA Southeastern La. Lions mbb
+SOU Southern U. Jaguars mbb
+SUU Southern Utah Thunderbirds mbb
+SFNY St. Francis Brooklyn Terriers wbb
+SJU St. John's (NY) Red Storm wbb
+STAN Stanford Cardinal wvb
+STON Stony Brook Seawolves wvb
+SYR Syracuse Orange fb
+TCU TCU Horned Frogs wvb
+TARL Tarleton St. Texans mbb
+TEM Temple Owls fb
+TNST Tennessee St. Tigers mbb
+TENN Tennessee Volunteers wvb
+TXAM Texas A&M Aggies wbb
+TEX Texas Longhorns wvb
+TXSO Texas Southern Tigers mbb
+TXST Texas St. Bobcats wvb
+TTU Texas Tech Red Raiders wvb
+TOL Toledo Rockets mbb
+TOWS Towson Tigers wvb
+TLSA Tulsa Golden Hurricane fb
+UCSB UC Santa Barbara Gauchos wvb
+UCF UCF Knights wbb
+UCLA UCLA Bruins wvb
+CONN UConn Huskies wvb
+UIC UIC Flames wvb
+UMBC UMBC Retrievers wvb
+UNCA UNC Asheville Bulldogs mbb
+UNLV UNLV Lady Rebels wvb
+UTM UT Martin Skyhawks mbb
+UTEP UTEP Miners wvb
+UTRGV UTRGV Vaqueros mbb
+UTSA UTSA Roadrunners fb
+USU Utah St. Aggies mbb
+UTAH Utah Utes wvb
+VCU VCU Rams wvb
+VALP Valparaiso Beacons wvb
+UVM Vermont Catamounts mbb
+VILL Villanova Wildcats wbb
+UVA Virginia Cavaliers wvb
+VT Virginia Tech Hokies wbb
+WAG Wagner Seahawks wbb
+WAKE Wake Forest Demon Deacons wbb
+WASH Washington Huskies wvb
+WSU Washington St. Cougars wvb
+WEB Weber St. Wildcats wvb
+WVU West Virginia Mountaineers wvb
+WIU Western Ill. Leathernecks mbb
+WKU Western Ky. Hilltoppers fb
+WMU Western Mich. Broncos fb
+// WIS Wisconsin Badgers wvb
+WRST Wright St. Raiders wvb
+UW Wyoming Cowboys fb
+WYO Wyoming Cowboys mbb
+XAV Xavier Musketeers mbb
+YALE Yale Elis mbb
+YSU Youngstown St. Penguins wbb

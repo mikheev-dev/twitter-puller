@@ -1,0 +1,1 @@
+['ILL','WIS','IND','IOWA','MD','MSU','MICH','MINN','NEB','NW','OSU','PSU','PUR','RUTG']

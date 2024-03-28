@@ -1,0 +1,2541 @@
+[
+  {
+    "name": "OhioStateBASE",
+    "tags": [
+      "osu",
+      "base"
+    ],
+    "desc": "OhioStateBASE",
+    "id": 399575985
+  },
+  {
+    "name": "ohiostatehoops",
+    "tags": [
+      "osu",
+      "mbb"
+    ],
+    "desc": "ohiostatehoops",
+    "id": 281669945
+  },
+  {
+    "name": "ohiostatewbb",
+    "tags": [
+      "wbb",
+      "osu"
+    ],
+    "desc": "ohiostatewbb",
+    "id": 900280416
+  },
+  {
+    "name": "ohiostatewvb",
+    "tags": [
+      "wvb",
+      "osu"
+    ],
+    "desc": "ohiostatewvb",
+    "id": 74189922
+  },
+  {
+    "name": "ohiostatefb",
+    "tags": [
+      "fb",
+      "osu"
+    ],
+    "desc": "ohiostatefb",
+    "id": 723239605823107072
+  },
+  {
+    "name": "ohiostatetfxc",
+    "tags": [
+      "wxc",
+      "mitf",
+      "witf",
+      "mxc",
+      "motf",
+      "osu",
+      "wotf"
+    ],
+    "desc": "ohiostatetfxc",
+    "id": 461442471
+  },
+  {
+    "name": "OhioStateMGOLF",
+    "tags": [
+      "osu",
+      "mgolf"
+    ],
+    "desc": "OhioStateMGOLF",
+    "id": 179233131
+  },
+  {
+    "name": "OhioStateMGYM",
+    "tags": [
+      "osu",
+      "mgym"
+    ],
+    "desc": "OhioStateMGYM",
+    "id": 456948237
+  },
+  {
+    "name": "OhioStateMHKY",
+    "tags": [
+      "osu",
+      "mhky"
+    ],
+    "desc": "OhioStateMHKY",
+    "id": 26773650
+  },
+  {
+    "name": "OhioStateMLAX",
+    "tags": [
+      "mlax",
+      "osu"
+    ],
+    "desc": "OhioStateMLAX",
+    "id": 177648766
+  },
+  {
+    "name": "ohiostatemsoc",
+    "tags": [
+      "osu",
+      "msoc"
+    ],
+    "desc": "ohiostatemsoc",
+    "id": 80046407
+  },
+  {
+    "name": "OhioStSwimDive",
+    "tags": [
+      "osu",
+      "msd",
+      "wsd"
+    ],
+    "desc": "OhioStSwimDive",
+    "id": 29980738
+  },
+  {
+    "name": "OhioStateMTEN",
+    "tags": [
+      "osu",
+      "mten"
+    ],
+    "desc": "OhioStateMTEN",
+    "id": 267251926
+  },
+  {
+    "name": "wrestlingbucks",
+    "tags": [
+      "osu",
+      "wrest"
+    ],
+    "desc": "wrestlingbucks",
+    "id": 100033983
+  },
+  {
+    "name": "OhioStateFH",
+    "tags": [
+      "osu",
+      "fh"
+    ],
+    "desc": "OhioStateFH",
+    "id": 355748904
+  },
+  {
+    "name": "OhioStateWGOLF",
+    "tags": [
+      "osu",
+      "wgolf"
+    ],
+    "desc": "OhioStateWGOLF",
+    "id": 177314261
+  },
+  {
+    "name": "OhioStateWGYM",
+    "tags": [
+      "osu",
+      "wgym"
+    ],
+    "desc": "OhioStateWGYM",
+    "id": 188476559
+  },
+  {
+    "name": "OhioStateWLAX",
+    "tags": [
+      "osu",
+      "wlax"
+    ],
+    "desc": "OhioStateWLAX",
+    "id": 80300752
+  },
+  {
+    "name": "OhioStateWROW",
+    "tags": [
+      "osu",
+      "wrow"
+    ],
+    "desc": "OhioStateWROW",
+    "id": 895304894
+  },
+  {
+    "name": "OhioStateWTEN",
+    "tags": [
+      "osu",
+      "wten"
+    ],
+    "desc": "OhioStateWTEN",
+    "id": 199484654
+  },
+  {
+    "name": "OhioStateSB",
+    "tags": [
+      "osu",
+      "sb"
+    ],
+    "desc": "OhioStateSB",
+    "id": 124781457
+  },
+  {
+    "name": "umichbaseball",
+    "tags": [
+      "base",
+      "mich"
+    ],
+    "desc": "umichbaseball",
+    "id": 22798877
+  },
+  {
+    "name": "umichbball",
+    "tags": [
+      "mbb",
+      "mich"
+    ],
+    "desc": "umichbball",
+    "id": 22642626
+  },
+  {
+    "name": "umichwbball",
+    "tags": [
+      "wbb",
+      "mich"
+    ],
+    "desc": "umichwbball",
+    "id": 22643259
+  },
+  {
+    "name": "umichvball",
+    "tags": [
+      "wvb",
+      "mich"
+    ],
+    "desc": "umichvball",
+    "id": 28100059
+  },
+  {
+    "name": "UMichFootball",
+    "tags": [
+      "fb",
+      "mich"
+    ],
+    "desc": "UMichFootball",
+    "id": 27902825
+  },
+  {
+    "name": "UMichTrack",
+    "tags": [
+      "wxc",
+      "mich",
+      "mitf",
+      "witf",
+      "mxc",
+      "motf",
+      "wotf"
+    ],
+    "desc": "UMichTrack",
+    "id": 27904378
+  },
+  {
+    "name": "umichmgolf",
+    "tags": [
+      "mgolf",
+      "mich"
+    ],
+    "desc": "umichmgolf",
+    "id": 1243590395851874305
+  },
+  {
+    "name": "UMichGym",
+    "tags": [
+      "mgym",
+      "mich"
+    ],
+    "desc": "UMichGym",
+    "id": 29226754
+  },
+  {
+    "name": "umichhockey",
+    "tags": [
+      "mich",
+      "mhky"
+    ],
+    "desc": "umichhockey",
+    "id": 21777967
+  },
+  {
+    "name": "UMichLacrosse",
+    "tags": [
+      "mlax",
+      "mich"
+    ],
+    "desc": "UMichLacrosse",
+    "id": 20955902
+  },
+  {
+    "name": "umichsoccer",
+    "tags": [
+      "msoc",
+      "mich"
+    ],
+    "desc": "umichsoccer",
+    "id": 28099831
+  },
+  {
+    "name": "umichswimdive",
+    "tags": [
+      "msd",
+      "wsd",
+      "mich"
+    ],
+    "desc": "umichswimdive",
+    "id": 45578343
+  },
+  {
+    "name": "umichtennis",
+    "tags": [
+      "mten",
+      "mich"
+    ],
+    "desc": "umichtennis",
+    "id": 27905245
+  },
+  {
+    "name": "umichwrestling",
+    "tags": [
+      "wrest",
+      "mich"
+    ],
+    "desc": "umichwrestling",
+    "id": 22798542
+  },
+  {
+    "name": "umichfldhockey",
+    "tags": [
+      "fh",
+      "mich"
+    ],
+    "desc": "umichfldhockey",
+    "id": 28099715
+  },
+  {
+    "name": "UMichWGolf",
+    "tags": [
+      "wgolf",
+      "mich"
+    ],
+    "desc": "UMichWGolf",
+    "id": 27903435
+  },
+  {
+    "name": "UMichWGym",
+    "tags": [
+      "mich",
+      "wgym"
+    ],
+    "desc": "UMichWGym",
+    "id": 21800915
+  },
+  {
+    "name": "UMichWLAX",
+    "tags": [
+      "wlax",
+      "mich"
+    ],
+    "desc": "UMichWLAX",
+    "id": 305817818
+  },
+  {
+    "name": "umichrowing",
+    "tags": [
+      "wrow",
+      "mich"
+    ],
+    "desc": "umichrowing",
+    "id": 27918176
+  },
+  {
+    "name": "UMichWTennis",
+    "tags": [
+      "wten",
+      "mich"
+    ],
+    "desc": "UMichWTennis",
+    "id": 1027313850859835392
+  },
+  {
+    "name": "umichsoftball",
+    "tags": [
+      "sb",
+      "mich"
+    ],
+    "desc": "umichsoftball",
+    "id": 26261465
+  },
+  {
+    "name": "umichwsoccer",
+    "tags": [
+      "wsoc",
+      "mich"
+    ],
+    "desc": "umichwsoccer",
+    "id": 28099949
+  },
+  {
+    "name": "IlliniBaseball",
+    "tags": [
+      "ill",
+      "base"
+    ],
+    "desc": "IlliniBaseball",
+    "id": 32575726
+  },
+  {
+    "name": "IlliniMBB",
+    "tags": [
+      "ill",
+      "mbb"
+    ],
+    "desc": "IlliniMBB",
+    "id": 40941404
+  },
+  {
+    "name": "IlliniWBB",
+    "tags": [
+      "wbb",
+      "ill"
+    ],
+    "desc": "IlliniWBB",
+    "id": 45412765
+  },
+  {
+    "name": "IlliniVBall",
+    "tags": [
+      "wvb",
+      "ill"
+    ],
+    "desc": "IlliniVBall",
+    "id": 58519799
+  },
+  {
+    "name": "IlliniFootball",
+    "tags": [
+      "fb",
+      "ill"
+    ],
+    "desc": "IlliniFootball",
+    "id": 26791995
+  },
+  {
+    "name": "IlliniTrackXC",
+    "tags": [
+      "wxc",
+      "mitf",
+      "witf",
+      "mxc",
+      "motf",
+      "ill",
+      "wotf"
+    ],
+    "desc": "IlliniTrackXC",
+    "id": 2857107180
+  },
+  {
+    "name": "IlliniMGolf",
+    "tags": [
+      "ill",
+      "mgolf"
+    ],
+    "desc": "IlliniMGolf",
+    "id": 62838472
+  },
+  {
+    "name": "IlliniMGym",
+    "tags": [
+      "ill",
+      "mgym"
+    ],
+    "desc": "IlliniMGym",
+    "id": 1952533632
+  },
+  {
+    "name": "IlliniHockey",
+    "tags": [
+      "ill",
+      "mhky"
+    ],
+    "desc": "IlliniHockey",
+    "id": 31374931
+  },
+  {
+    "name": "IlliniLacrosse",
+    "tags": [
+      "mlax",
+      "ill"
+    ],
+    "desc": "IlliniLacrosse",
+    "id": 102775077
+  },
+  {
+    "name": "IlliniSwimDive",
+    "tags": [
+      "ill",
+      "msd",
+      "wsd"
+    ],
+    "desc": "IlliniSwimDive",
+    "id": 62876889
+  },
+  {
+    "name": "IlliniMTennis",
+    "tags": [
+      "ill",
+      "mten"
+    ],
+    "desc": "IlliniMTennis",
+    "id": 48744265
+  },
+  {
+    "name": "IlliniWrestling",
+    "tags": [
+      "ill",
+      "wrest"
+    ],
+    "desc": "IlliniWrestling",
+    "id": 41606345
+  },
+  {
+    "name": "IlliniWGolf",
+    "tags": [
+      "ill",
+      "wgolf"
+    ],
+    "desc": "IlliniWGolf",
+    "id": 1855353536
+  },
+  {
+    "name": "illiniwgym",
+    "tags": [
+      "ill",
+      "wgym"
+    ],
+    "desc": "illiniwgym",
+    "id": 49783682
+  },
+  {
+    "name": "IlliniRowing",
+    "tags": [
+      "ill",
+      "wrow"
+    ],
+    "desc": "IlliniRowing",
+    "id": 54126388
+  },
+  {
+    "name": "IlliniWTennis",
+    "tags": [
+      "ill",
+      "wten"
+    ],
+    "desc": "IlliniWTennis",
+    "id": 2155113181
+  },
+  {
+    "name": "IlliniSB",
+    "tags": [
+      "ill",
+      "sb"
+    ],
+    "desc": "IlliniSB",
+    "id": 40025755
+  },
+  {
+    "name": "IlliniSoccer",
+    "tags": [
+      "wsoc",
+      "ill"
+    ],
+    "desc": "IlliniSoccer",
+    "id": 45961053
+  },
+  {
+    "name": "MSUBaseball",
+    "tags": [
+      "base",
+      "msu"
+    ],
+    "desc": "MSUBaseball",
+    "id": 95450798
+  },
+  {
+    "name": "MSU_Basketball",
+    "tags": [
+      "mbb",
+      "msu"
+    ],
+    "desc": "MSU_Basketball",
+    "id": 57422635
+  },
+  {
+    "name": "MSU_WBasketball",
+    "tags": [
+      "wbb",
+      "msu"
+    ],
+    "desc": "MSU_WBasketball",
+    "id": 57415242
+  },
+  {
+    "name": "MSU_Volleyball",
+    "tags": [
+      "wvb",
+      "msu"
+    ],
+    "desc": "MSU_Volleyball",
+    "id": 46684619
+  },
+  {
+    "name": "MSU_Football",
+    "tags": [
+      "fb",
+      "msu"
+    ],
+    "desc": "MSU_Football",
+    "id": 33587536
+  },
+  {
+    "name": "MSU_TFXC",
+    "tags": [
+      "wxc",
+      "mitf",
+      "witf",
+      "msu",
+      "mxc",
+      "motf",
+      "wotf"
+    ],
+    "desc": "MSU_TFXC",
+    "id": 239178022
+  },
+  {
+    "name": "MSU_MGolf",
+    "tags": [
+      "msu",
+      "mgolf"
+    ],
+    "desc": "MSU_MGolf",
+    "id": 331016614
+  },
+  {
+    "name": "MSU_Hockey",
+    "tags": [
+      "msu",
+      "mhky"
+    ],
+    "desc": "MSU_Hockey",
+    "id": 58803348
+  },
+  {
+    "name": "MSU_Lacrosse",
+    "tags": [
+      "mlax",
+      "msu"
+    ],
+    "desc": "MSU_Lacrosse",
+    "id": 3320206519
+  },
+  {
+    "name": "MSUswimdive",
+    "tags": [
+      "msu",
+      "msd",
+      "wsd"
+    ],
+    "desc": "MSUswimdive",
+    "id": 861520758
+  },
+  {
+    "name": "MSU_MTennis",
+    "tags": [
+      "mten",
+      "msu"
+    ],
+    "desc": "MSU_MTennis",
+    "id": 474994482
+  },
+  {
+    "name": "MSU_Wrestling",
+    "tags": [
+      "msu",
+      "wrest"
+    ],
+    "desc": "MSU_Wrestling",
+    "id": 253237680
+  },
+  {
+    "name": "MSU_WGolf",
+    "tags": [
+      "msu",
+      "wgolf"
+    ],
+    "desc": "MSU_WGolf",
+    "id": 77028548
+  },
+  {
+    "name": "MSU_Gymnastics",
+    "tags": [
+      "msu",
+      "wgym"
+    ],
+    "desc": "MSU_Gymnastics",
+    "id": 90006673
+  },
+  {
+    "name": "MSU_Rowing",
+    "tags": [
+      "wrow",
+      "msu"
+    ],
+    "desc": "MSU_Rowing",
+    "id": 155867360
+  },
+  {
+    "name": "MSU_WTennis",
+    "tags": [
+      "wten",
+      "msu"
+    ],
+    "desc": "MSU_WTennis",
+    "id": 789437197
+  },
+  {
+    "name": "MSU_wsoccer",
+    "tags": [
+      "wsoc",
+      "msu"
+    ],
+    "desc": "MSU_wsoccer",
+    "id": 778532809
+  },
+  {
+    "name": "UIBaseball",
+    "tags": [
+      "base",
+      "iowa"
+    ],
+    "desc": "UIBaseball",
+    "id": 386060495
+  },
+  {
+    "name": "IowaHoops",
+    "tags": [
+      "mbb",
+      "iowa"
+    ],
+    "desc": "IowaHoops",
+    "id": 55590247
+  },
+  {
+    "name": "IowaWBB",
+    "tags": [
+      "wbb",
+      "iowa"
+    ],
+    "desc": "IowaWBB",
+    "id": 902089998
+  },
+  {
+    "name": "IowaVolleyball",
+    "tags": [
+      "wvb",
+      "iowa"
+    ],
+    "desc": "IowaVolleyball",
+    "id": 47741202
+  },
+  {
+    "name": "HawkeyeFootball",
+    "tags": [
+      "fb",
+      "iowa"
+    ],
+    "desc": "HawkeyeFootball",
+    "id": 128467197
+  },
+  {
+    "name": "IowaXC_TF",
+    "tags": [
+      "wxc",
+      "mitf",
+      "witf",
+      "iowa",
+      "mxc",
+      "motf",
+      "wotf"
+    ],
+    "desc": "IowaXC_TF",
+    "id": 242933763
+  },
+  {
+    "name": "IowaHawkeyeGolf",
+    "tags": [
+      "iowa",
+      "mgolf"
+    ],
+    "desc": "IowaHawkeyeGolf",
+    "id": 21214359
+  },
+  {
+    "name": "Hawks_Wrestling",
+    "tags": [
+      "iowa",
+      "wrest"
+    ],
+    "desc": "Hawks_Wrestling",
+    "id": 295691719
+  },
+  {
+    "name": "iowafieldhockey",
+    "tags": [
+      "fh",
+      "iowa"
+    ],
+    "desc": "iowafieldhockey",
+    "id": 296413593
+  },
+  {
+    "name": "IowaWomensGolf",
+    "tags": [
+      "iowa",
+      "wgolf"
+    ],
+    "desc": "IowaWomensGolf",
+    "id": 1117210610
+  },
+  {
+    "name": "IowaGymnastics",
+    "tags": [
+      "iowa",
+      "wgym"
+    ],
+    "desc": "IowaGymnastics",
+    "id": 743524958
+  },
+  {
+    "name": "WomensLaxIowa",
+    "tags": [
+      "iowa",
+      "wlax"
+    ],
+    "desc": "WomensLaxIowa",
+    "id": 3787863973
+  },
+  {
+    "name": "iowarowing",
+    "tags": [
+      "wrow",
+      "iowa"
+    ],
+    "desc": "iowarowing",
+    "id": 383901133
+  },
+  {
+    "name": "iowa_tennis",
+    "tags": [
+      "wten",
+      "iowa"
+    ],
+    "desc": "iowa_tennis",
+    "id": 805374086
+  },
+  {
+    "name": "IowaSwimDive",
+    "tags": [
+      "iowa",
+      "wsd"
+    ],
+    "desc": "IowaSwimDive",
+    "id": 48749266
+  },
+  {
+    "name": "iowasoftball",
+    "tags": [
+      "iowa",
+      "sb"
+    ],
+    "desc": "iowasoftball",
+    "id": 275089901
+  },
+  {
+    "name": "HawkeyeSoccer",
+    "tags": [
+      "wsoc",
+      "iowa"
+    ],
+    "desc": "HawkeyeSoccer",
+    "id": 34691263
+  },
+  {
+    "name": "RutgersBaseball",
+    "tags": [
+      "base",
+      "rutg"
+    ],
+    "desc": "RutgersBaseball",
+    "id": 253579419
+  },
+  {
+    "name": "RutgersMBB",
+    "tags": [
+      "mbb",
+      "rutg"
+    ],
+    "desc": "RutgersMBB",
+    "id": 902030382
+  },
+  {
+    "name": "RutgersWBB",
+    "tags": [
+      "wbb",
+      "rutg"
+    ],
+    "desc": "RutgersWBB",
+    "id": 900368808
+  },
+  {
+    "name": "RUvball",
+    "tags": [
+      "wvb",
+      "rutg"
+    ],
+    "desc": "RUvball",
+    "id": 339013852
+  },
+  {
+    "name": "NJ_RutgersFB",
+    "tags": [
+      "fb",
+      "rutg"
+    ],
+    "desc": "NJ_RutgersFB",
+    "id": 57048241
+  },
+  {
+    "name": "RutgersTFXC",
+    "tags": [
+      "mitf",
+      "motf",
+      "rutg",
+      "mxc"
+    ],
+    "desc": "RutgersTFXC",
+    "id": 2446026428
+  },
+  {
+    "name": "RUMensGolf",
+    "tags": [
+      "mgolf",
+      "rutg"
+    ],
+    "desc": "RUMensGolf",
+    "id": 1069186123
+  },
+  {
+    "name": "rutgersd2hockey",
+    "tags": [
+      "rutg",
+      "mhky"
+    ],
+    "desc": "rutgersd2hockey",
+    "id": 2652677138
+  },
+  {
+    "name": "RUmlax",
+    "tags": [
+      "mlax",
+      "rutg"
+    ],
+    "desc": "RUmlax",
+    "id": 339799884
+  },
+  {
+    "name": "RUMensSoccer",
+    "tags": [
+      "msoc",
+      "rutg"
+    ],
+    "desc": "RUMensSoccer",
+    "id": 39616820
+  },
+  {
+    "name": "RUWrestling",
+    "tags": [
+      "rutg",
+      "wrest"
+    ],
+    "desc": "RUWrestling",
+    "id": 390185215
+  },
+  {
+    "name": "Rutgers_WomenTF",
+    "tags": [
+      "witf",
+      "wxc",
+      "rutg",
+      "wotf"
+    ],
+    "desc": "Rutgers_WomenTF",
+    "id": 2548544636
+  },
+  {
+    "name": "RUFieldHockey",
+    "tags": [
+      "fh",
+      "rutg"
+    ],
+    "desc": "RUFieldHockey",
+    "id": 105667929
+  },
+  {
+    "name": "RutgersWGolf",
+    "tags": [
+      "wgolf",
+      "rutg"
+    ],
+    "desc": "RutgersWGolf",
+    "id": 2764995375
+  },
+  {
+    "name": "RUGymnastics",
+    "tags": [
+      "rutg",
+      "wgym"
+    ],
+    "desc": "RUGymnastics",
+    "id": 331120565
+  },
+  {
+    "name": "rutgers_wlax",
+    "tags": [
+      "wlax",
+      "rutg"
+    ],
+    "desc": "rutgers_wlax",
+    "id": 85573406
+  },
+  {
+    "name": "RutgersWRowing",
+    "tags": [
+      "wrow",
+      "rutg"
+    ],
+    "desc": "RutgersWRowing",
+    "id": 277620639
+  },
+  {
+    "name": "RutgersTennis",
+    "tags": [
+      "wten",
+      "rutg"
+    ],
+    "desc": "RutgersTennis",
+    "id": 339070573
+  },
+  {
+    "name": "RUSwimDive",
+    "tags": [
+      "rutg",
+      "wsd"
+    ],
+    "desc": "RUSwimDive",
+    "id": 128322945
+  },
+  {
+    "name": "RUSoftball",
+    "tags": [
+      "sb",
+      "rutg"
+    ],
+    "desc": "RUSoftball",
+    "id": 872422303
+  },
+  {
+    "name": "RUWSoccer",
+    "tags": [
+      "wsoc",
+      "rutg"
+    ],
+    "desc": "RUWSoccer",
+    "id": 2676782845
+  },
+  {
+    "name": "IndianaBase",
+    "tags": [
+      "base",
+      "ind"
+    ],
+    "desc": "IndianaBase",
+    "id": 246063599
+  },
+  {
+    "name": "IndianaMBB",
+    "tags": [
+      "mbb",
+      "ind"
+    ],
+    "desc": "IndianaMBB",
+    "id": 791598918
+  },
+  {
+    "name": "IndianaWBB",
+    "tags": [
+      "wbb",
+      "ind"
+    ],
+    "desc": "IndianaWBB",
+    "id": 32414973
+  },
+  {
+    "name": "IndianaVB",
+    "tags": [
+      "wvb",
+      "ind"
+    ],
+    "desc": "IndianaVB",
+    "id": 34605835
+  },
+  {
+    "name": "IndianaFootball",
+    "tags": [
+      "fb",
+      "ind"
+    ],
+    "desc": "IndianaFootball",
+    "id": 706923475
+  },
+  {
+    "name": "IndianaMGolf",
+    "tags": [
+      "ind",
+      "mgolf"
+    ],
+    "desc": "IndianaMGolf",
+    "id": 223286164
+  },
+  {
+    "name": "Hockey_Indiana",
+    "tags": [
+      "ind",
+      "mhky"
+    ],
+    "desc": "Hockey_Indiana",
+    "id": 1583815362
+  },
+  {
+    "name": "IndianaXCTF",
+    "tags": [
+      "mitf",
+      "witf",
+      "motf",
+      "ind",
+      "wotf"
+    ],
+    "desc": "IndianaXCTF",
+    "id": 333467236
+  },
+  {
+    "name": "LacrosseIU",
+    "tags": [
+      "mlax",
+      "ind"
+    ],
+    "desc": "LacrosseIU",
+    "id": 188479071
+  },
+  {
+    "name": "IndianaMSOC",
+    "tags": [
+      "ind",
+      "msoc"
+    ],
+    "desc": "IndianaMSOC",
+    "id": 29739264
+  },
+  {
+    "name": "IndianaSwimDive",
+    "tags": [
+      "ind",
+      "msd",
+      "wsd"
+    ],
+    "desc": "IndianaSwimDive",
+    "id": 63017007
+  },
+  {
+    "name": "IndianaMTennis",
+    "tags": [
+      "mten",
+      "ind"
+    ],
+    "desc": "IndianaMTennis",
+    "id": 574680328
+  },
+  {
+    "name": "IndianaWR",
+    "tags": [
+      "ind",
+      "wrest"
+    ],
+    "desc": "IndianaWR",
+    "id": 34023686
+  },
+  {
+    "name": "IndianaFH",
+    "tags": [
+      "fh",
+      "ind"
+    ],
+    "desc": "IndianaFH",
+    "id": 180388972
+  },
+  {
+    "name": "IndianaWGolf",
+    "tags": [
+      "ind",
+      "wgolf"
+    ],
+    "desc": "IndianaWGolf",
+    "id": 63156793
+  },
+  {
+    "name": "IndianaRowing",
+    "tags": [
+      "wrow",
+      "ind"
+    ],
+    "desc": "IndianaRowing",
+    "id": 43557484
+  },
+  {
+    "name": "IndianaWTennis",
+    "tags": [
+      "wten",
+      "ind"
+    ],
+    "desc": "IndianaWTennis",
+    "id": 249194230
+  },
+  {
+    "name": "IndianaSB",
+    "tags": [
+      "ind",
+      "sb"
+    ],
+    "desc": "IndianaSB",
+    "id": 75407108
+  },
+  {
+    "name": "IndianaWSOC",
+    "tags": [
+      "wsoc",
+      "ind"
+    ],
+    "desc": "IndianaWSOC",
+    "id": 64438808
+  },
+  {
+    "name": "TerpsBaseball",
+    "tags": [
+      "md",
+      "base"
+    ],
+    "desc": "TerpsBaseball",
+    "id": 87673496
+  },
+  {
+    "name": "TerrapinHoops",
+    "tags": [
+      "md",
+      "mbb"
+    ],
+    "desc": "TerrapinHoops",
+    "id": 364460082
+  },
+  {
+    "name": "TerpsWBB",
+    "tags": [
+      "wbb",
+      "md"
+    ],
+    "desc": "TerpsWBB",
+    "id": 873861104
+  },
+  {
+    "name": "TerpsVolleyball",
+    "tags": [
+      "wvb",
+      "md"
+    ],
+    "desc": "TerpsVolleyball",
+    "id": 746403284
+  },
+  {
+    "name": "TerpsFootball",
+    "tags": [
+      "fb",
+      "md"
+    ],
+    "desc": "TerpsFootball",
+    "id": 964260852
+  },
+  {
+    "name": "TerpsMGolf",
+    "tags": [
+      "md",
+      "mgolf"
+    ],
+    "desc": "TerpsMGolf",
+    "id": 380308695
+  },
+  {
+    "name": "TerpsD3Hockey",
+    "tags": [
+      "md",
+      "mhky"
+    ],
+    "desc": "TerpsD3Hockey",
+    "id": 3236539949
+  },
+  {
+    "name": "TerpsMLax",
+    "tags": [
+      "mlax",
+      "md"
+    ],
+    "desc": "TerpsMLax",
+    "id": 188026946
+  },
+  {
+    "name": "MarylandMSoccer",
+    "tags": [
+      "md",
+      "msoc"
+    ],
+    "desc": "MarylandMSoccer",
+    "id": 28357349
+  },
+  {
+    "name": "TerpSwimDive",
+    "tags": [
+      "md",
+      "msd",
+      "wsd"
+    ],
+    "desc": "TerpSwimDive",
+    "id": 345493067
+  },
+  {
+    "name": "TerpsWrestling",
+    "tags": [
+      "md",
+      "wrest"
+    ],
+    "desc": "TerpsWrestling",
+    "id": 22094358
+  },
+  {
+    "name": "TerpsFH",
+    "tags": [
+      "md",
+      "fh"
+    ],
+    "desc": "TerpsFH",
+    "id": 213078161
+  },
+  {
+    "name": "TerpsWGolf",
+    "tags": [
+      "md",
+      "wgolf"
+    ],
+    "desc": "TerpsWGolf",
+    "id": 366111088
+  },
+  {
+    "name": "TerpsGymnastics",
+    "tags": [
+      "md",
+      "wgym"
+    ],
+    "desc": "TerpsGymnastics",
+    "id": 62852558
+  },
+  {
+    "name": "MarylandWLax",
+    "tags": [
+      "md",
+      "wlax"
+    ],
+    "desc": "MarylandWLax",
+    "id": 40153002
+  },
+  {
+    "name": "MarylandTrack",
+    "tags": [
+      "md",
+      "wotf"
+    ],
+    "desc": "MarylandTrack",
+    "id": 80084069
+  },
+  {
+    "name": "marylandrowing",
+    "tags": [
+      "md",
+      "wrow"
+    ],
+    "desc": "marylandrowing",
+    "id": 509453120
+  },
+  {
+    "name": "TerpTennis",
+    "tags": [
+      "md",
+      "wten"
+    ],
+    "desc": "TerpTennis",
+    "id": 834425336
+  },
+  {
+    "name": "TerpsSoftball",
+    "tags": [
+      "md",
+      "sb"
+    ],
+    "desc": "TerpsSoftball",
+    "id": 40049263
+  },
+  {
+    "name": "TerpsWSoccer",
+    "tags": [
+      "wsoc",
+      "md"
+    ],
+    "desc": "TerpsWSoccer",
+    "id": 371955914
+  },
+  {
+    "name": "GopherBaseball",
+    "tags": [
+      "base",
+      "minn"
+    ],
+    "desc": "GopherBaseball",
+    "id": 56396829
+  },
+  {
+    "name": "GopherMBB",
+    "tags": [
+      "mbb",
+      "minn"
+    ],
+    "desc": "GopherMBB",
+    "id": 191894553
+  },
+  {
+    "name": "GopherWBB",
+    "tags": [
+      "wbb",
+      "minn"
+    ],
+    "desc": "GopherWBB",
+    "id": 378174762
+  },
+  {
+    "name": "GopherVBall",
+    "tags": [
+      "wvb",
+      "minn"
+    ],
+    "desc": "GopherVBall",
+    "id": 49665751
+  },
+  {
+    "name": "GopherFootball",
+    "tags": [
+      "fb",
+      "minn"
+    ],
+    "desc": "GopherFootball",
+    "id": 26813914
+  },
+  {
+    "name": "GopherCCTF",
+    "tags": [
+      "wxc",
+      "mitf",
+      "witf",
+      "minn",
+      "mxc",
+      "motf",
+      "wotf"
+    ],
+    "desc": "GopherCCTF",
+    "id": 1663224744
+  },
+  {
+    "name": "GopherMGolf",
+    "tags": [
+      "minn",
+      "mgolf"
+    ],
+    "desc": "GopherMGolf",
+    "id": 43177129
+  },
+  {
+    "name": "GopherHockey",
+    "tags": [
+      "minn",
+      "mhky"
+    ],
+    "desc": "GopherHockey",
+    "id": 149976996
+  },
+  {
+    "name": "MinnesotaMLax",
+    "tags": [
+      "mlax",
+      "minn"
+    ],
+    "desc": "MinnesotaMLax",
+    "id": 372630921
+  },
+  {
+    "name": "GopherSwimDive",
+    "tags": [
+      "minn",
+      "msd",
+      "wsd"
+    ],
+    "desc": "GopherSwimDive",
+    "id": 1210522765
+  },
+  {
+    "name": "GopherMTennis",
+    "tags": [
+      "minn",
+      "mten"
+    ],
+    "desc": "GopherMTennis",
+    "id": 170025019
+  },
+  {
+    "name": "GopherWrestling",
+    "tags": [
+      "minn",
+      "wrest"
+    ],
+    "desc": "GopherWrestling",
+    "id": 59114767
+  },
+  {
+    "name": "GopherWGolf",
+    "tags": [
+      "minn",
+      "wgolf"
+    ],
+    "desc": "GopherWGolf",
+    "id": 296452769
+  },
+  {
+    "name": "GopherWGym",
+    "tags": [
+      "minn",
+      "wgym"
+    ],
+    "desc": "GopherWGym",
+    "id": 52109909
+  },
+  {
+    "name": "gopherwlax",
+    "tags": [
+      "minn",
+      "wlax"
+    ],
+    "desc": "gopherwlax",
+    "id": 887697559
+  },
+  {
+    "name": "Gopher_Rowing",
+    "tags": [
+      "minn",
+      "wrow"
+    ],
+    "desc": "Gopher_Rowing",
+    "id": 133902456
+  },
+  {
+    "name": "GopherWTennis",
+    "tags": [
+      "wten",
+      "minn"
+    ],
+    "desc": "GopherWTennis",
+    "id": 170020781
+  },
+  {
+    "name": "GopherSoftball",
+    "tags": [
+      "minn",
+      "sb"
+    ],
+    "desc": "GopherSoftball",
+    "id": 69117905
+  },
+  {
+    "name": "GopherSoccer",
+    "tags": [
+      "wsoc",
+      "minn"
+    ],
+    "desc": "GopherSoccer",
+    "id": 54538176
+  },
+  {
+    "name": "Husker_Baseball",
+    "tags": [
+      "base",
+      "neb"
+    ],
+    "desc": "Husker_Baseball",
+    "id": 122975164
+  },
+  {
+    "name": "HuskerHoops",
+    "tags": [
+      "mbb",
+      "neb"
+    ],
+    "desc": "HuskerHoops",
+    "id": 30954864
+  },
+  {
+    "name": "HuskersWBB",
+    "tags": [
+      "wbb",
+      "neb"
+    ],
+    "desc": "HuskersWBB",
+    "id": 64736595
+  },
+  {
+    "name": "Huskervball",
+    "tags": [
+      "wvb",
+      "neb"
+    ],
+    "desc": "Huskervball",
+    "id": 36999945
+  },
+  {
+    "name": "HuskerFBNation",
+    "tags": [
+      "fb",
+      "neb"
+    ],
+    "desc": "HuskerFBNation",
+    "id": 2151130166
+  },
+  {
+    "name": "HuskersGolf",
+    "tags": [
+      "mgolf",
+      "neb"
+    ],
+    "desc": "HuskersGolf",
+    "id": 1129343646
+  },
+  {
+    "name": "NebraskaMensGym",
+    "tags": [
+      "mgym",
+      "neb"
+    ],
+    "desc": "NebraskaMensGym",
+    "id": 93689087
+  },
+  {
+    "name": "huskerhockey",
+    "tags": [
+      "neb",
+      "mhky"
+    ],
+    "desc": "huskerhockey",
+    "id": 41488694
+  },
+  {
+    "name": "NUTrackandField",
+    "tags": [
+      "mitf",
+      "witf",
+      "neb",
+      "motf",
+      "wotf"
+    ],
+    "desc": "NUTrackandField",
+    "id": 107215013
+  },
+  {
+    "name": "NebraskaLax",
+    "tags": [
+      "mlax",
+      "neb"
+    ],
+    "desc": "NebraskaLax",
+    "id": 114064627
+  },
+  {
+    "name": "huskermtennis",
+    "tags": [
+      "mten",
+      "neb"
+    ],
+    "desc": "huskermtennis",
+    "id": 785635207
+  },
+  {
+    "name": "HuskerWrestling",
+    "tags": [
+      "neb",
+      "wrest"
+    ],
+    "desc": "HuskerWrestling",
+    "id": 88711293
+  },
+  {
+    "name": "huskerwgolf",
+    "tags": [
+      "wgolf",
+      "neb"
+    ],
+    "desc": "huskerwgolf",
+    "id": 2357303304
+  },
+  {
+    "name": "HuskersWGym",
+    "tags": [
+      "neb",
+      "wgym"
+    ],
+    "desc": "HuskersWGym",
+    "id": 227361401
+  },
+  {
+    "name": "Nebraska_Rowing",
+    "tags": [
+      "wrow",
+      "neb"
+    ],
+    "desc": "Nebraska_Rowing",
+    "id": 560670188
+  },
+  {
+    "name": "HuskersWTennis",
+    "tags": [
+      "wten",
+      "neb"
+    ],
+    "desc": "HuskersWTennis",
+    "id": 1861330886
+  },
+  {
+    "name": "HuskerSwimNDive",
+    "tags": [
+      "neb",
+      "wsd"
+    ],
+    "desc": "HuskerSwimNDive",
+    "id": 2885783453
+  },
+  {
+    "name": "HuskerSoftball",
+    "tags": [
+      "sb",
+      "neb"
+    ],
+    "desc": "HuskerSoftball",
+    "id": 397376255
+  },
+  {
+    "name": "NebraskaSoccer",
+    "tags": [
+      "wsoc",
+      "neb"
+    ],
+    "desc": "NebraskaSoccer",
+    "id": 38183841
+  },
+  {
+    "name": "NUCatsBaseball",
+    "tags": [
+      "base",
+      "nw"
+    ],
+    "desc": "NUCatsBaseball",
+    "id": 1295467256
+  },
+  {
+    "name": "NUMensBball",
+    "tags": [
+      "mbb",
+      "nw"
+    ],
+    "desc": "NUMensBball",
+    "id": 413422891
+  },
+  {
+    "name": "nuwbball",
+    "tags": [
+      "wbb",
+      "nw"
+    ],
+    "desc": "nuwbball",
+    "id": 41688179
+  },
+  {
+    "name": "NUVball",
+    "tags": [
+      "wvb",
+      "nw"
+    ],
+    "desc": "NUVball",
+    "id": 179635621
+  },
+  {
+    "name": "NUFBFamily",
+    "tags": [
+      "fb",
+      "nw"
+    ],
+    "desc": "NUFBFamily",
+    "id": 188781567
+  },
+  {
+    "name": "nuxc_wildcats",
+    "tags": [
+      "wxc",
+      "mitf",
+      "witf",
+      "mxc",
+      "nw",
+      "motf",
+      "wotf"
+    ],
+    "desc": "nuxc_wildcats",
+    "id": 556166026
+  },
+  {
+    "name": "NUGolf_Live",
+    "tags": [
+      "mgolf",
+      "wgolf",
+      "nw"
+    ],
+    "desc": "NUGolf_Live",
+    "id": 247592446
+  },
+  {
+    "name": "NUMENSICEHOCKEY",
+    "tags": [
+      "nw",
+      "mhky"
+    ],
+    "desc": "NUMENSICEHOCKEY",
+    "id": 176888750
+  },
+  {
+    "name": "NUMensSoccer",
+    "tags": [
+      "msoc",
+      "nw"
+    ],
+    "desc": "NUMensSoccer",
+    "id": 239965138
+  },
+  {
+    "name": "NUMensTennis",
+    "tags": [
+      "mten",
+      "nw"
+    ],
+    "desc": "NUMensTennis",
+    "id": 69649063
+  },
+  {
+    "name": "NUWrestle",
+    "tags": [
+      "wrest",
+      "nw"
+    ],
+    "desc": "NUWrestle",
+    "id": 57728637
+  },
+  {
+    "name": "NUFHCats",
+    "tags": [
+      "fh",
+      "nw"
+    ],
+    "desc": "NUFHCats",
+    "id": 124597783
+  },
+  {
+    "name": "NULax",
+    "tags": [
+      "wlax",
+      "nw"
+    ],
+    "desc": "NULax",
+    "id": 48090813
+  },
+  {
+    "name": "NUcrew",
+    "tags": [
+      "wrow",
+      "nw"
+    ],
+    "desc": "NUcrew",
+    "id": 183402583
+  },
+  {
+    "name": "NUWildcatTennis",
+    "tags": [
+      "wten",
+      "nw"
+    ],
+    "desc": "NUWildcatTennis",
+    "id": 123965329
+  },
+  {
+    "name": "NUSwimDive",
+    "tags": [
+      "wsd",
+      "nw"
+    ],
+    "desc": "NUSwimDive",
+    "id": 850316214
+  },
+  {
+    "name": "NUSBcats",
+    "tags": [
+      "sb",
+      "nw"
+    ],
+    "desc": "NUSBcats",
+    "id": 113083865
+  },
+  {
+    "name": "NUWSoccer",
+    "tags": [
+      "wsoc",
+      "nw"
+    ],
+    "desc": "NUWSoccer",
+    "id": 174424475
+  },
+  {
+    "name": "PennStateBASE",
+    "tags": [
+      "base",
+      "psu"
+    ],
+    "desc": "PennStateBASE",
+    "id": 21363170
+  },
+  {
+    "name": "PennStateMBB",
+    "tags": [
+      "mbb",
+      "psu"
+    ],
+    "desc": "PennStateMBB",
+    "id": 87275465
+  },
+  {
+    "name": "PennStateWBB",
+    "tags": [
+      "wbb",
+      "psu"
+    ],
+    "desc": "PennStateWBB",
+    "id": 69379688
+  },
+  {
+    "name": "PennStateVBALL",
+    "tags": [
+      "wvb",
+      "psu"
+    ],
+    "desc": "PennStateVBALL",
+    "id": 38030330
+  },
+  {
+    "name": "PennStateFball",
+    "tags": [
+      "fb",
+      "psu"
+    ],
+    "desc": "PennStateFball",
+    "id": 53103297
+  },
+  {
+    "name": "PennStateTFXC",
+    "tags": [
+      "wxc",
+      "mitf",
+      "witf",
+      "mxc",
+      "motf",
+      "psu",
+      "wotf"
+    ],
+    "desc": "PennStateTFXC",
+    "id": 21801562
+  },
+  {
+    "name": "PennStateMGolf",
+    "tags": [
+      "psu",
+      "mgolf"
+    ],
+    "desc": "PennStateMGolf",
+    "id": 628491639
+  },
+  {
+    "name": "PennStateMGYM",
+    "tags": [
+      "psu",
+      "mgym"
+    ],
+    "desc": "PennStateMGYM",
+    "id": 625772169
+  },
+  {
+    "name": "PennStateMHKY",
+    "tags": [
+      "psu",
+      "mhky"
+    ],
+    "desc": "PennStateMHKY",
+    "id": 251196485
+  },
+  {
+    "name": "PennStateMLAX",
+    "tags": [
+      "mlax",
+      "psu"
+    ],
+    "desc": "PennStateMLAX",
+    "id": 360179976
+  },
+  {
+    "name": "PennStateMSOC",
+    "tags": [
+      "psu",
+      "msoc"
+    ],
+    "desc": "PennStateMSOC",
+    "id": 491831136
+  },
+  {
+    "name": "PennStateSWIM",
+    "tags": [
+      "psu",
+      "msd",
+      "wsd"
+    ],
+    "desc": "PennStateSWIM",
+    "id": 625125930
+  },
+  {
+    "name": "pennstateMTEN",
+    "tags": [
+      "mten",
+      "psu"
+    ],
+    "desc": "pennstateMTEN",
+    "id": 625571684
+  },
+  {
+    "name": "pennstateWREST",
+    "tags": [
+      "psu",
+      "wrest"
+    ],
+    "desc": "pennstateWREST",
+    "id": 625629732
+  },
+  {
+    "name": "PennStateFH",
+    "tags": [
+      "fh",
+      "psu"
+    ],
+    "desc": "PennStateFH",
+    "id": 57413413
+  },
+  {
+    "name": "PennStateWGolf",
+    "tags": [
+      "psu",
+      "wgolf"
+    ],
+    "desc": "PennStateWGolf",
+    "id": 628488948
+  },
+  {
+    "name": "PennStateWGYM",
+    "tags": [
+      "psu",
+      "wgym"
+    ],
+    "desc": "PennStateWGYM",
+    "id": 38778731
+  },
+  {
+    "name": "PennStateWLAX",
+    "tags": [
+      "psu",
+      "wlax"
+    ],
+    "desc": "PennStateWLAX",
+    "id": 491835043
+  },
+  {
+    "name": "PennStateCrew",
+    "tags": [
+      "wrow",
+      "psu"
+    ],
+    "desc": "PennStateCrew",
+    "id": 534467412
+  },
+  {
+    "name": "pennstateWTEN",
+    "tags": [
+      "wten",
+      "psu"
+    ],
+    "desc": "pennstateWTEN",
+    "id": 625580414
+  },
+  {
+    "name": "PennStateSB",
+    "tags": [
+      "psu",
+      "sb"
+    ],
+    "desc": "PennStateSB",
+    "id": 78632208
+  },
+  {
+    "name": "PennStateWSOC",
+    "tags": [
+      "wsoc",
+      "psu"
+    ],
+    "desc": "PennStateWSOC",
+    "id": 26258241
+  },
+  {
+    "name": "PurdueBaseball",
+    "tags": [
+      "base",
+      "pur"
+    ],
+    "desc": "PurdueBaseball",
+    "id": 236896254
+  },
+  {
+    "name": "BoilerBall",
+    "tags": [
+      "mbb",
+      "pur"
+    ],
+    "desc": "BoilerBall",
+    "id": 454122399
+  },
+  {
+    "name": "PurdueWBB",
+    "tags": [
+      "wbb",
+      "pur"
+    ],
+    "desc": "PurdueWBB",
+    "id": 38053254
+  },
+  {
+    "name": "PurdueVB",
+    "tags": [
+      "wvb",
+      "pur"
+    ],
+    "desc": "PurdueVB",
+    "id": 41114541
+  },
+  {
+    "name": "BoilerFootball",
+    "tags": [
+      "fb",
+      "pur"
+    ],
+    "desc": "BoilerFootball",
+    "id": 44468807
+  },
+  {
+    "name": "PurdueTrackXC",
+    "tags": [
+      "wxc",
+      "mitf",
+      "witf",
+      "pur",
+      "mxc",
+      "motf",
+      "wotf"
+    ],
+    "desc": "PurdueTrackXC",
+    "id": 239916421
+  },
+  {
+    "name": "PurdueMensGolf",
+    "tags": [
+      "mgolf",
+      "pur"
+    ],
+    "desc": "PurdueMensGolf",
+    "id": 1712798653
+  },
+  {
+    "name": "PurdueGymnasts",
+    "tags": [
+      "mgym",
+      "pur",
+      "wgym"
+    ],
+    "desc": "PurdueGymnasts",
+    "id": 1280939431
+  },
+  {
+    "name": "purduehockey",
+    "tags": [
+      "pur",
+      "mhky"
+    ],
+    "desc": "purduehockey",
+    "id": 398481536
+  },
+  {
+    "name": "PurdueMensLax",
+    "tags": [
+      "mlax",
+      "pur"
+    ],
+    "desc": "PurdueMensLax",
+    "id": 139297417
+  },
+  {
+    "name": "Purdue_Soccer",
+    "tags": [
+      "msoc",
+      "pur"
+    ],
+    "desc": "Purdue_Soccer",
+    "id": 1688719471
+  },
+  {
+    "name": "PurdueMSwimDive",
+    "tags": [
+      "msd",
+      "pur"
+    ],
+    "desc": "PurdueMSwimDive",
+    "id": 389841447
+  },
+  {
+    "name": "PurdueMTennis",
+    "tags": [
+      "mten",
+      "pur"
+    ],
+    "desc": "PurdueMTennis",
+    "id": 726417642
+  },
+  {
+    "name": "PurdueWrestling",
+    "tags": [
+      "pur",
+      "wrest"
+    ],
+    "desc": "PurdueWrestling",
+    "id": 64441085
+  },
+  {
+    "name": "PurdueWGolf",
+    "tags": [
+      "wgolf",
+      "pur"
+    ],
+    "desc": "PurdueWGolf",
+    "id": 726426655
+  },
+  {
+    "name": "PurdueWomensLax",
+    "tags": [
+      "wlax",
+      "pur"
+    ],
+    "desc": "PurdueWomensLax",
+    "id": 377091801
+  },
+  {
+    "name": "PurdueCrew",
+    "tags": [
+      "wrow",
+      "pur"
+    ],
+    "desc": "PurdueCrew",
+    "id": 213017388
+  },
+  {
+    "name": "PurdueWTennis",
+    "tags": [
+      "wten",
+      "pur"
+    ],
+    "desc": "PurdueWTennis",
+    "id": 726433988
+  },
+  {
+    "name": "PurdueWSwim",
+    "tags": [
+      "pur",
+      "wsd"
+    ],
+    "desc": "PurdueWSwim",
+    "id": 360041531
+  },
+  {
+    "name": "PurdueSoftball",
+    "tags": [
+      "sb",
+      "pur"
+    ],
+    "desc": "PurdueSoftball",
+    "id": 52459464
+  },
+  {
+    "name": "PurdueSoccer",
+    "tags": [
+      "wsoc",
+      "pur"
+    ],
+    "desc": "PurdueSoccer",
+    "id": 140113965
+  },
+  {
+    "name": "badgerbasebalI",
+    "tags": [
+      "base",
+      "wis"
+    ],
+    "desc": "badgerbasebalI",
+    "id": 1142181519542427649
+  },
+  {
+    "name": "BadgerMBB",
+    "tags": [
+      "mbb",
+      "wis"
+    ],
+    "desc": "BadgerMBB",
+    "id": 22815383
+  },
+  {
+    "name": "BadgerWBB",
+    "tags": [
+      "wbb",
+      "wis"
+    ],
+    "desc": "BadgerWBB",
+    "id": 45891626
+  },
+  {
+    "name": "BadgerVB",
+    "tags": [
+      "wvb",
+      "wis"
+    ],
+    "desc": "BadgerVB",
+    "id": 31512987
+  },
+  {
+    "name": "BadgerFootball",
+    "tags": [
+      "fb",
+      "wis"
+    ],
+    "desc": "BadgerFootball",
+    "id": 21790466
+  },
+  {
+    "name": "BadgerTrackXC",
+    "tags": [
+      "wxc",
+      "mitf",
+      "witf",
+      "mxc",
+      "motf",
+      "wis",
+      "wotf"
+    ],
+    "desc": "BadgerTrackXC",
+    "id": 44938639
+  },
+  {
+    "name": "BadgerMGolf",
+    "tags": [
+      "mgolf",
+      "wis"
+    ],
+    "desc": "BadgerMGolf",
+    "id": 334707761
+  },
+  {
+    "name": "WiscoGymnastics",
+    "tags": [
+      "mgym",
+      "wis",
+      "wgym"
+    ],
+    "desc": "WiscoGymnastics",
+    "id": 2442950874
+  },
+  {
+    "name": "BadgerMHockey",
+    "tags": [
+      "wis",
+      "mhky"
+    ],
+    "desc": "BadgerMHockey",
+    "id": 21319189
+  },
+  {
+    "name": "TeamSconnieLax",
+    "tags": [
+      "mlax",
+      "wlax",
+      "wis"
+    ],
+    "desc": "TeamSconnieLax",
+    "id": 418404351
+  },
+  {
+    "name": "BadgerMSoccer",
+    "tags": [
+      "msoc",
+      "wis"
+    ],
+    "desc": "BadgerMSoccer",
+    "id": 41425794
+  },
+  {
+    "name": "badgerswimdive",
+    "tags": [
+      "wsd",
+      "msd",
+      "wis"
+    ],
+    "desc": "badgerswimdive",
+    "id": 331874962
+  },
+  {
+    "name": "BadgerMTennis",
+    "tags": [
+      "mten",
+      "wis"
+    ],
+    "desc": "BadgerMTennis",
+    "id": 873762367
+  },
+  {
+    "name": "BadgerWrestling",
+    "tags": [
+      "wis",
+      "wrest"
+    ],
+    "desc": "BadgerWrestling",
+    "id": 65095263
+  },
+  {
+    "name": "BadgerWGolf",
+    "tags": [
+      "wgolf",
+      "wis"
+    ],
+    "desc": "BadgerWGolf",
+    "id": 787732087
+  },
+  {
+    "name": "BadgerRowing",
+    "tags": [
+      "wrow",
+      "wis"
+    ],
+    "desc": "BadgerRowing",
+    "id": 26576092
+  },
+  {
+    "name": "BadgerWTennis",
+    "tags": [
+      "wten",
+      "wis"
+    ],
+    "desc": "BadgerWTennis",
+    "id": 1148425692
+  },
+  {
+    "name": "BadgerSoftball",
+    "tags": [
+      "sb",
+      "wis"
+    ],
+    "desc": "BadgerSoftball",
+    "id": 252273678
+  },
+  {
+    "name": "BadgerWSoccer",
+    "tags": [
+      "wsoc",
+      "wis"
+    ],
+    "desc": "BadgerWSoccer",
+    "id": 44937728
+  }
+]
